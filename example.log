@@ -1,0 +1,242 @@
+WARN main org.apache.jena.riot - [line: 551782, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Associação_Naval_1º_de_Maio__Vítor_Alves__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 551782, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Associação_Naval_1º_de_Maio__Vítor_Alves__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 551783, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Associação_Naval_1º_de_Maio__Taha_Zareei__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 551783, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Associação_Naval_1º_de_Maio__Taha_Zareei__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 553366, col: 1 ] Bad IRI: <http://dbpedia.org/resource/7½_Phere> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 553366, col: 1 ] Bad IRI: <http://dbpedia.org/resource/7½_Phere> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 575494, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_Return……> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 575494, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_Return……> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 584269, col: 1 ] Bad IRI: <http://dbpedia.org/resource/8½_Women> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 584269, col: 1 ] Bad IRI: <http://dbpedia.org/resource/8½_Women> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 596505, col: 1 ] Bad IRI: <http://dbpedia.org/resource/I…Vampire> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 596505, col: 1 ] Bad IRI: <http://dbpedia.org/resource/I…Vampire> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 664678, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Counterfeit²> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 664678, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Counterfeit²> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 670197, col: 1 ] Bad IRI: <http://dbpedia.org/resource/La_5ª_Estación> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 670197, col: 1 ] Bad IRI: <http://dbpedia.org/resource/La_5ª_Estación> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 688927, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_Secret_Diary_of_Adrian_Mole,_Aged_13¾> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 688927, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_Secret_Diary_of_Adrian_Mole,_Aged_13¾> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 703069, col: 1 ] Bad IRI: <http://dbpedia.org/resource/My_Brother…Nikhil> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 703069, col: 1 ] Bad IRI: <http://dbpedia.org/resource/My_Brother…Nikhil> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 714290, col: 1 ] Bad IRI: <http://dbpedia.org/resource/PC²> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 714290, col: 1 ] Bad IRI: <http://dbpedia.org/resource/PC²> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 718587, col: 1 ] Bad IRI: <http://dbpedia.org/resource/101²> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 718587, col: 1 ] Bad IRI: <http://dbpedia.org/resource/101²> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 720929, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Swordsman_II__Ching_Hsia_Lin/_Swordsman_II_OST東方不敗－林青霞_電影音樂紀實__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 720929, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Swordsman_II__Ching_Hsia_Lin/_Swordsman_II_OST東方不敗－林青霞_電影音樂紀實__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 735687, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Konono_Nº1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 735687, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Konono_Nº1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 744587, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Saw_III__Saw_Ⅲ:_Original_Motion_Picture_Soundtrack__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 744587, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Saw_III__Saw_Ⅲ:_Original_Motion_Picture_Soundtrack__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 753551, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_Bliss_Album…%3F_(Vibrations_of_Love_and_Anger_and_the_Ponderance_of_Life_and_Existence)> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 753551, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_Bliss_Album…%3F_(Vibrations_of_Love_and_Anger_and_the_Ponderance_of_Life_and_Existence)> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 770614, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Bentley_4½_Litre> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 770614, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Bentley_4½_Litre> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 770615, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Bentley_4½_Litre__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 770615, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Bentley_4½_Litre__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 779352, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Manawatu_United__Jamie_O´Connor__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 779352, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Manawatu_United__Jamie_O´Connor__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 788132, col: 1 ] Bad IRI: <http://dbpedia.org/resource/When_It_Rains…> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 788132, col: 1 ] Bad IRI: <http://dbpedia.org/resource/When_It_Rains…> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 798828, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Morris_Cowley__Morris_½-ton_series_III__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 798828, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Morris_Cowley__Morris_½-ton_series_III__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815432, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815432, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815433, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815433, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815434, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815434, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815435, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815435, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815436, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815436, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815437, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815437, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815438, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815438, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815439, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815439, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815440, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__3> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815440, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__3> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815441, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__3> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815441, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__3> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815442, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__3> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815442, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__3> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815443, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__3> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815443, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__3> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815444, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__4> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815444, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__4> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815445, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__4> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815445, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__4> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815446, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__4> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815446, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__4> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815447, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__4> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815447, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__4> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815448, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__5> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815448, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__5> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815449, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__5> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815449, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__5> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815450, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__5> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815450, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__5> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815451, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__5> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815451, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_V8__5> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815452, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815452, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815453, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815453, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815454, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815454, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815455, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815455, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815456, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815456, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815457, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815457, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815458, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815458, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815459, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815459, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__327_in³_Small-Block_FI_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815460, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__396_in³_Big-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815460, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__396_in³_Big-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815461, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__396_in³_Big-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815461, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__396_in³_Big-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815462, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__396_in³_Big-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815462, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__396_in³_Big-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815463, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__396_in³_Big-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815463, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__396_in³_Big-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815464, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815464, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815465, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815465, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815466, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815466, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815467, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815467, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815468, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815468, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815469, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815469, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815470, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815470, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815471, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815471, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815472, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815472, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815473, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815473, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815474, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815474, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815475, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815475, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815476, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815476, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815477, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815477, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815478, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815478, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 815479, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 815479, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Chevrolet_Corvette_(C2)__427_in³_Big-Block_Tri-Power_V8__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 825989, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Ghosts…_of_the_Civil_Dead> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 825989, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Ghosts…_of_the_Civil_Dead> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 834546, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Carl²> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 834546, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Carl²> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 836883, col: 1 ] Bad IRI: <http://dbpedia.org/resource/You'll_Never_See…> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 836883, col: 1 ] Bad IRI: <http://dbpedia.org/resource/You'll_Never_See…> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 838154, col: 1 ] Bad IRI: <http://dbpedia.org/resource/MFK_Dubnica__Gianfranco_D´Errico__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 838154, col: 1 ] Bad IRI: <http://dbpedia.org/resource/MFK_Dubnica__Gianfranco_D´Errico__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 849258, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Aktenzeichen_XY_…_ungelöst> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 849258, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Aktenzeichen_XY_…_ungelöst> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 858647, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_1½_LitreJaguar_1½_Litre__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 858647, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_1½_LitreJaguar_1½_Litre__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 858648, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_1½_LitreJaguar_1½_Litre__1__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 858648, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_1½_LitreJaguar_1½_Litre__1__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 858649, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_2½_LitreJaguar_2½_Litre__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 858649, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_2½_LitreJaguar_2½_Litre__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 858650, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_2½_LitreJaguar_2½_Litre__1__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 858650, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_2½_LitreJaguar_2½_Litre__1__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 858651, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_3½_LitreJaguar_3½_Litre__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 858651, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_3½_LitreJaguar_3½_Litre__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 858652, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_3½_LitreJaguar_3½_Litre__1__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 858652, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Jaguar_Mark_IV__SS_Jaguar_3½_LitreJaguar_3½_Litre__1__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 885871, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Estádio_1º_de_Maio> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 885871, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Estádio_1º_de_Maio> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 888845, col: 1 ] Bad IRI: <http://dbpedia.org/resource/2½_Years> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 888845, col: 1 ] Bad IRI: <http://dbpedia.org/resource/2½_Years> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 912044, col: 1 ] Bad IRI: <http://dbpedia.org/resource/…on_the_Radio_(Remember_the_Days)> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 912044, col: 1 ] Bad IRI: <http://dbpedia.org/resource/…on_the_Radio_(Remember_the_Days)> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 942918, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Synthespians™> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 942918, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Synthespians™> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 984746, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Daimler_Majestic_Major__Daimler_4½-litre_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 984746, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Daimler_Majestic_Major__Daimler_4½-litre_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 989385, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Meanwhile,_Back_in_Communist_Russia…> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 989385, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Meanwhile,_Back_in_Communist_Russia…> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1050082, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Hi-Teknology²:_The_Chip> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1050082, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Hi-Teknology²:_The_Chip> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1068892, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Wish_in_One_Hand…> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1068892, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Wish_in_One_Hand…> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1076127, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Brace_Yourself_(µ-ziq_album)> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1076127, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Brace_Yourself_(µ-ziq_album)> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1077075, col: 1 ] Bad IRI: <http://dbpedia.org/resource/I_Do_What_I_Do_(Theme_for_9½_Weeks)> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1077075, col: 1 ] Bad IRI: <http://dbpedia.org/resource/I_Do_What_I_Do_(Theme_for_9½_Weeks)> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1078903, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Me²> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1078903, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Me²> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1119884, col: 1 ] Bad IRI: <http://dbpedia.org/resource/3″/50_caliber_gun> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1119884, col: 1 ] Bad IRI: <http://dbpedia.org/resource/3″/50_caliber_gun> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1122683, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_13½_Lives_of_Captain_Bluebear> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1122683, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_13½_Lives_of_Captain_Bluebear> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1126873, col: 1 ] Bad IRI: <http://dbpedia.org/resource/List_of_Norton_motorcycles__Model_3½__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1126873, col: 1 ] Bad IRI: <http://dbpedia.org/resource/List_of_Norton_motorcycles__Model_3½__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1126874, col: 1 ] Bad IRI: <http://dbpedia.org/resource/List_of_Norton_motorcycles__Model_3½__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1126874, col: 1 ] Bad IRI: <http://dbpedia.org/resource/List_of_Norton_motorcycles__Model_3½__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1126875, col: 1 ] Bad IRI: <http://dbpedia.org/resource/List_of_Norton_motorcycles__Model_3½__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1126875, col: 1 ] Bad IRI: <http://dbpedia.org/resource/List_of_Norton_motorcycles__Model_3½__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1126876, col: 1 ] Bad IRI: <http://dbpedia.org/resource/List_of_Norton_motorcycles__Model_3½__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1126876, col: 1 ] Bad IRI: <http://dbpedia.org/resource/List_of_Norton_motorcycles__Model_3½__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1153880, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Ooh…_You_Are_Awful> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1153880, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Ooh…_You_Are_Awful> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1180629, col: 1 ] Bad IRI: <http://dbpedia.org/resource/M35_2½-ton_cargo_truck> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1180629, col: 1 ] Bad IRI: <http://dbpedia.org/resource/M35_2½-ton_cargo_truck> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1223596, col: 1 ] Bad IRI: <http://dbpedia.org/resource/33⅓_Revolutions_per_Monkee> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1223596, col: 1 ] Bad IRI: <http://dbpedia.org/resource/33⅓_Revolutions_per_Monkee> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1271911, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Dragon_Ball_Z:_Best_Remix_2006_½_Special> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1271911, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Dragon_Ball_Z:_Best_Remix_2006_½_Special> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1274057, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Super_8½> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1274057, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Super_8½> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1335533, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Simferopol_gymnasium_№1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1335533, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Simferopol_gymnasium_№1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1335800, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Hot_Dog…The_Movie> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1335800, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Hot_Dog…The_Movie> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1372033, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Hi™_How_Are_You_Today%3F> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1372033, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Hi™_How_Are_You_Today%3F> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1380867, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Daimler_DR450__Daimler_Turner_4½_litre_V8__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1380867, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Daimler_DR450__Daimler_Turner_4½_litre_V8__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1397702, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Acústico_(La_5ª_Estación_album)> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1397702, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Acústico_(La_5ª_Estación_album)> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1405310, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_Earrings_of_Madame_de…> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1405310, col: 1 ] Bad IRI: <http://dbpedia.org/resource/The_Earrings_of_Madame_de…> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1418754, col: 1 ] Bad IRI: <http://dbpedia.org/resource/½_Full> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1418754, col: 1 ] Bad IRI: <http://dbpedia.org/resource/½_Full> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1418867, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1º_Batalhão_de_Forças_Especiais> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1418867, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1º_Batalhão_de_Forças_Especiais> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1426699, col: 1 ] Bad IRI: <http://dbpedia.org/resource/8½_Souvenirs> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1426699, col: 1 ] Bad IRI: <http://dbpedia.org/resource/8½_Souvenirs> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1466968, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Uh_Oh…_No_Breaks!> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1466968, col: 1 ] Bad IRI: <http://dbpedia.org/resource/Uh_Oh…_No_Breaks!> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1474498, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1474498, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1474499, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1474499, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1474500, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1474500, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1474501, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1474501, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1474502, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1474502, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1474503, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1474503, col: 1 ] Bad IRI: <http://dbpedia.org/resource/1981_CART_PPG_Indy_Car_World_Series__Jerry_O´Connell_Racing__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1494595, col: 1 ] Bad IRI: <http://dbpedia.org/resource/E=MC²_(Mariah_Carey_album)> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1494595, col: 1 ] Bad IRI: <http://dbpedia.org/resource/E=MC²_(Mariah_Carey_album)> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1494596, col: 1 ] Bad IRI: <http://dbpedia.org/resource/E=MC²_(Mariah_Carey_album)__1> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1494596, col: 1 ] Bad IRI: <http://dbpedia.org/resource/E=MC²_(Mariah_Carey_album)__1> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
+WARN main org.apache.jena.riot - [line: 1494597, col: 1 ] Bad IRI: <http://dbpedia.org/resource/E=MC²_(Mariah_Carey_album)__2> Code: 47/NOT_NFKC in PATH: The IRI is not in Unicode Normal Form KC.
+WARN main org.apache.jena.riot - [line: 1494597, col: 1 ] Bad IRI: <http://dbpedia.org/resource/E=MC²_(Mariah_Carey_album)__2> Code: 56/COMPATIBILITY_CHARACTER in PATH: Bad character
