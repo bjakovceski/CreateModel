@@ -9,13 +9,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Transportation {
-    public static List<String> TransportationLinks() {
+    public static List<String> TransportationLinks(int queryLimit) {
         ParameterizedSparqlString qs = new ParameterizedSparqlString(""
                 + "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n"
                 + "PREFIX dbo:<http://dbpedia.org/ontology/>\n"
                 + "PREFIX vrank:<http://purl.org/voc/vrank#>\n"
 
-                + "SELECT ?s ?v\n"
+                + "SELECT DISTINCT ?s ?v\n"
 
                 + "FROM<http://dbpedia.org>\n"
                 + "FROM<http://people.aifb.kit.edu/ath/#DBpedia_PageRank>\n"
@@ -100,7 +100,7 @@ public class Transportation {
 
                 + "?s vrank:hasRank/vrank:rankValue ?v.\n"
                 + "}\n"
-                + "ORDER BY DESC(?v) LIMIT 40"
+                + "ORDER BY DESC(?v) LIMIT " + queryLimit
         );
         QueryExecution exec = QueryExecutionFactory.sparqlService("http://dbpedia.org/sparql", qs.asQuery());
 
@@ -109,6 +109,7 @@ public class Transportation {
         while (results.hasNext()) {
             links.add(results.next().get("s").toString());
         }
+        exec.close();
         return links;
     }
 }

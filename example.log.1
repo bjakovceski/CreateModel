@@ -1,103 +1,22 @@
-DEBUG main org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
-DEBUG main org.apache.http.wire - << "Date: Sun, 22 Apr 2018 17:56:16 GMT[\r][\n]"
-DEBUG main org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
-DEBUG main org.apache.http.wire - << "Content-Length: 3993[\r][\n]"
-DEBUG main org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
-DEBUG main org.apache.http.wire - << "Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB[\r][\n]"
-DEBUG main org.apache.http.wire - << "Expires: Sun, 29 Apr 2018 17:56:16 GMT[\r][\n]"
-DEBUG main org.apache.http.wire - << "Cache-Control: max-age=604800[\r][\n]"
-DEBUG main org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
-DEBUG main org.apache.http.wire - << "Access-Control-Allow-Credentials: true[\r][\n]"
-DEBUG main org.apache.http.wire - << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
-DEBUG main org.apache.http.wire - << "Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding[\r][\n]"
-DEBUG main org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
-DEBUG main org.apache.http.wire - << "[\r][\n]"
-DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
-DEBUG main org.apache.http.headers - << Date: Sun, 22 Apr 2018 17:56:16 GMT
-DEBUG main org.apache.http.headers - << Content-Type: application/sparql-results+json
-DEBUG main org.apache.http.headers - << Content-Length: 3993
-DEBUG main org.apache.http.headers - << Connection: keep-alive
-DEBUG main org.apache.http.headers - << Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB
-DEBUG main org.apache.http.headers - << Expires: Sun, 29 Apr 2018 17:56:16 GMT
-DEBUG main org.apache.http.headers - << Cache-Control: max-age=604800
-DEBUG main org.apache.http.headers - << Access-Control-Allow-Origin: *
-DEBUG main org.apache.http.headers - << Access-Control-Allow-Credentials: true
-DEBUG main org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, OPTIONS
-DEBUG main org.apache.http.headers - << Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding
-DEBUG main org.apache.http.headers - << Accept-Ranges: bytes
-DEBUG main org.apache.http.impl.client.SystemDefaultHttpClient - Connection can be kept alive indefinitely
-DEBUG main org.apache.http.wire - << "[\n]"
-DEBUG main org.apache.http.wire - << "{ "head": { "link": [], "vars": ["s", "v"] },[\n]"
-DEBUG main org.apache.http.wire - << "  "results": { "distinct": false, "ordered": true, "bindings": [[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Peer_review" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "301.642" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "248.834" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Submarine" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "210.331" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/PH" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "204.253" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Rapid_transit" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "188.458" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Equator" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "187.07" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Helicopter" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "163.673" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Controlled-access_highway" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "149.053" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Egg" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "130.719" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Cartesian_coordinate_system" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "128.702" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Light_rail" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "128.472" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/BBC_Radio_4" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "126.694" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fighter_aircraft" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "118.874" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Ferry" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "117.478" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Telegraphy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "113.634" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Ship" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "113.318" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Aircraft_carrier" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "113.257" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Digital_television" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "111.457" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/International_Space_Station" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "106.547" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/International_Space_Station" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "106.547" }} ] } }"
-DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection [id: 1][route: {}->http://dbpedia.org] can be kept alive indefinitely
-DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection released: [id: 1][route: {}->http://dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
-DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:51200<->194.109.129.58:80 closed
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:51200<->194.109.129.58:80 closed
-DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
-DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:51199<->194.109.129.58:80 closed
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:51199<->194.109.129.58:80 closed
-DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
-DEBUG main Jena - Jena initialization
-DEBUG main org.apache.jena.util.FileManager - Add location: LocatorFile
-DEBUG main org.apache.jena.util.FileManager - Add location: ClassLoaderLocator
-DEBUG main org.apache.jena.util.LocationMapper - Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
-DEBUG main org.apache.jena.util.FileManager - Add location: LocatorFile
-DEBUG main org.apache.jena.util.FileManager - Add location: LocatorURL
-DEBUG main org.apache.jena.util.FileManager - Add location: ClassLoaderLocator
-DEBUG main org.apache.jena.riot.system.stream.JenaIOEnvironment - Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
-DEBUG main org.apache.jena.riot.web.HttpOp - [1] GET http://dbpedia.org/sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A
-DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection request: [route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
-DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection leased: [id: 0][route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
-DEBUG main org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to dbpedia.org:80
-DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
-DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-DEBUG main org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-DEBUG main org.apache.http.impl.client.SystemDefaultHttpClient - Attempt 1 to execute request
-DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1
-DEBUG main org.apache.http.wire - >> "GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "User-Agent: Apache-Jena-ARQ/3.0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept-Encoding: gzip,deflate[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Host: dbpedia.org[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
 DEBUG main org.apache.http.wire - >> "[\r][\n]"
-DEBUG main org.apache.http.headers - >> GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1
+DEBUG main org.apache.http.headers - >> GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASocietalEvent+%3B%0A++++++++++++rdf%3Atype++dbo%3AElection%0A++++++%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1
 DEBUG main org.apache.http.headers - >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
 DEBUG main org.apache.http.headers - >> User-Agent: Apache-Jena-ARQ/3.0.1
 DEBUG main org.apache.http.headers - >> Accept-Encoding: gzip,deflate
 DEBUG main org.apache.http.headers - >> Host: dbpedia.org
 DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
 DEBUG main org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
-DEBUG main org.apache.http.wire - << "Date: Sun, 22 Apr 2018 20:16:04 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Date: Thu, 03 May 2018 19:46:42 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
-DEBUG main org.apache.http.wire - << "Content-Length: 8165[\r][\n]"
+DEBUG main org.apache.http.wire - << "Content-Length: 8235[\r][\n]"
 DEBUG main org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
 DEBUG main org.apache.http.wire - << "Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB[\r][\n]"
-DEBUG main org.apache.http.wire - << "Expires: Sun, 29 Apr 2018 20:16:04 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Expires: Thu, 10 May 2018 19:46:42 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Cache-Control: max-age=604800[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Credentials: true[\r][\n]"
@@ -107,12 +26,12 @@ DEBUG main org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
 DEBUG main org.apache.http.wire - << "[\r][\n]"
 DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
 DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
-DEBUG main org.apache.http.headers - << Date: Sun, 22 Apr 2018 20:16:04 GMT
+DEBUG main org.apache.http.headers - << Date: Thu, 03 May 2018 19:46:42 GMT
 DEBUG main org.apache.http.headers - << Content-Type: application/sparql-results+json
-DEBUG main org.apache.http.headers - << Content-Length: 8165
+DEBUG main org.apache.http.headers - << Content-Length: 8235
 DEBUG main org.apache.http.headers - << Connection: keep-alive
 DEBUG main org.apache.http.headers - << Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB
-DEBUG main org.apache.http.headers - << Expires: Sun, 29 Apr 2018 20:16:04 GMT
+DEBUG main org.apache.http.headers - << Expires: Thu, 10 May 2018 19:46:42 GMT
 DEBUG main org.apache.http.headers - << Cache-Control: max-age=604800
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Origin: *
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Credentials: true
@@ -143,28 +62,33 @@ DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Liberal_Party_of_Canada" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "146.233" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Liberal_Party_of_Australia" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "140.203" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Nazi_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "137.566" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_States_presidential_election,_2008" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "134.375" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Kuomintang" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "130.973" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Federated_state" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "122.124" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Social_Democratic_Party_of_Germany" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "121.712" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Bharatiya_Janata_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "113.834" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Nucleic_acid_sequence" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "110.339" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_States_presidential_election,_2004" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "107.446" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Communist_Party_of_the_Soviet_Union" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "105.31" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_States_presidential_election,_2012" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "102.689" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_Kingdom_general_election,_2010" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "99.0784" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Whigs_(British_political_party)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.7666" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Melody" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "94.1756" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_States_presidential_election,_2000" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "91.4555" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Central_Powers" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "89.5086" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Freedom_of_the_press" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "88.2484" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Chiang_Kai-shek" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "85.9493" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Sinn_F\u00E9in" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "84.636" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Swiss_People's_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "84.0812" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Social_Democratic_Party_of_Austria" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "82.8818" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Austrian_People's_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "82.2744" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Socialist_Party_(France)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "82.0956" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Christian_Democratic_Union_of_Germany" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "81.1951" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Social_Democratic_Party_of_Switzerland" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "80.9582" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/New_Democratic_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "80.1859" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Whig_Party_(United_States)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "79.5173" }} ] } }"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_Kingdom_general_election,_2015" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XM"
+DEBUG main org.apache.http.wire - << "LSchema#float", "value": "82.7675" }} ] } }"
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection [id: 0][route: {}->http://dbpedia.org] can be kept alive indefinitely
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection released: [id: 0][route: {}->http://dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54958<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54958<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
 DEBUG main org.apache.jena.riot.web.HttpOp - [2] POST http://dbpedia.org/sparql
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection request: [route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection leased: [id: 1][route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
@@ -179,7 +103,7 @@ DEBUG main org.apache.http.wire - >> "POST /sparql HTTP/1.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "User-Agent: Apache-Jena-ARQ/3.0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept-Encoding: gzip,deflate[\r][\n]"
-DEBUG main org.apache.http.wire - >> "Content-Length: 3849[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Content-Length: 4235[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Host: dbpedia.org[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
@@ -188,18 +112,18 @@ DEBUG main org.apache.http.headers - >> POST /sparql HTTP/1.1
 DEBUG main org.apache.http.headers - >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
 DEBUG main org.apache.http.headers - >> User-Agent: Apache-Jena-ARQ/3.0.1
 DEBUG main org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-DEBUG main org.apache.http.headers - >> Content-Length: 3849
+DEBUG main org.apache.http.headers - >> Content-Length: 4235
 DEBUG main org.apache.http.headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
 DEBUG main org.apache.http.headers - >> Host: dbpedia.org
 DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
-DEBUG main org.apache.http.wire - >> "query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3ASport+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsLeague+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsTeam+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAthlete+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAustralianRulesFootballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABadmintonPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABaseballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABasketballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABodybuilder+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABoxer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACanoeist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AChessPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACricketer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACyclist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ADartsPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AFencer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGaelicGamesPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGolfPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGridironFootballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGymnast+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHandballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHighDiver+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHorseRider+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AJockey+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ALacrossePlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMartialArtist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMotorsportRacer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ANationalCollegiateAthleticAssociationAthlete+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ANetballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APokerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARugbyPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASnookerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASoccerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASquashPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASurfer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASwimmer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATableTennisPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATeamMember+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATennisPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AVolleyballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWaterPoloPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWinterSportPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWrestler+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACoach+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AOrganisationMember+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsManager+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsEvent+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARace+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATournament+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWrestlingEvent+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportCompetitionResult+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsSeason+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A"
+DEBUG main org.apache.http.wire - >> "query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3ASport+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsLeague+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsTeam+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAthlete+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAustralianRulesFootballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABadmintonPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABaseballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABasketballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABodybuilder+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABoxer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACanoeist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AChessPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACricketer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACyclist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ADartsPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AFencer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGaelicGamesPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGolfPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGridironFootballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGymnast+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHandballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHighDiver+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHorseRider+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AJockey+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ALacrossePlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMartialArtist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMotorsportRacer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ANationalCollegiateAthleticAssociationAthlete+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ANetballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APokerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARugbyPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASnookerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASoccerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASquashPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASurfer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASwimmer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATableTennisPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATeamMember+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATennisPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AVolleyballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWaterPoloPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWinterSportPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWrestler+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACoach+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AOrganisationMember+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsManager+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsEvent+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARace+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATournament+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWrestlingEvent+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportCompetitionResult+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsSeason+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AReferee+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportFacility+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACricketGround+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGolfCourse+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARaceTrack+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASkiArea+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A"
 DEBUG main org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
-DEBUG main org.apache.http.wire - << "Date: Sun, 22 Apr 2018 20:16:11 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Date: Thu, 03 May 2018 19:46:42 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
 DEBUG main org.apache.http.wire - << "Content-Length: 8022[\r][\n]"
 DEBUG main org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
 DEBUG main org.apache.http.wire - << "Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB[\r][\n]"
-DEBUG main org.apache.http.wire - << "Expires: Sun, 29 Apr 2018 20:16:11 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Expires: Thu, 10 May 2018 19:46:42 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Cache-Control: max-age=604800[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Credentials: true[\r][\n]"
@@ -209,12 +133,12 @@ DEBUG main org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
 DEBUG main org.apache.http.wire - << "[\r][\n]"
 DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
 DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
-DEBUG main org.apache.http.headers - << Date: Sun, 22 Apr 2018 20:16:11 GMT
+DEBUG main org.apache.http.headers - << Date: Thu, 03 May 2018 19:46:42 GMT
 DEBUG main org.apache.http.headers - << Content-Type: application/sparql-results+json
 DEBUG main org.apache.http.headers - << Content-Length: 8022
 DEBUG main org.apache.http.headers - << Connection: keep-alive
 DEBUG main org.apache.http.headers - << Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB
-DEBUG main org.apache.http.headers - << Expires: Sun, 29 Apr 2018 20:16:11 GMT
+DEBUG main org.apache.http.headers - << Expires: Thu, 10 May 2018 19:46:42 GMT
 DEBUG main org.apache.http.headers - << Cache-Control: max-age=604800
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Origin: *
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Credentials: true
@@ -267,6 +191,10 @@ DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fishing" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "164.932" }} ] } }"
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection [id: 1][route: {}->http://dbpedia.org] can be kept alive indefinitely
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection released: [id: 1][route: {}->http://dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54959<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54959<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
 DEBUG main org.apache.jena.riot.web.HttpOp - [3] POST http://dbpedia.org/sparql
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection request: [route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection leased: [id: 2][route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
@@ -281,7 +209,7 @@ DEBUG main org.apache.http.wire - >> "POST /sparql HTTP/1.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "User-Agent: Apache-Jena-ARQ/3.0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept-Encoding: gzip,deflate[\r][\n]"
-DEBUG main org.apache.http.wire - >> "Content-Length: 2844[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Content-Length: 2853[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Host: dbpedia.org[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
@@ -290,18 +218,18 @@ DEBUG main org.apache.http.headers - >> POST /sparql HTTP/1.1
 DEBUG main org.apache.http.headers - >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
 DEBUG main org.apache.http.headers - >> User-Agent: Apache-Jena-ARQ/3.0.1
 DEBUG main org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-DEBUG main org.apache.http.headers - >> Content-Length: 2844
+DEBUG main org.apache.http.headers - >> Content-Length: 2853
 DEBUG main org.apache.http.headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
 DEBUG main org.apache.http.headers - >> Host: dbpedia.org
 DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
-DEBUG main org.apache.http.wire - >> "query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3AAircraft+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAutomobile+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ALocomotive+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMilitaryVehicle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMotorcycle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AOn-SiteTransportation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARocket+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AShip+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpaceShuttle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpaceStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpacecraft+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATrain+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATrainCarriage+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATram+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAutomobileEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARocketEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACompany+%3B%0A++++++++++++rdf%3Atype++dbo%3APublicTransitSystem%0A++++++%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAirline+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABusCompany+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AInfrastructure+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAirport+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APort+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARestArea+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARouteOfTransportation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABridge+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayLine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoad+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoadJunction+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoadTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWaterwayTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMetroStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARouteStop+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATramStop+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A"
+DEBUG main org.apache.http.wire - >> "query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3AAircraft+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAutomobile+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ALocomotive+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMilitaryVehicle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMotorcycle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AOn-SiteTransportation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARocket+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AShip+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpaceShuttle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpaceStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpacecraft+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATrain+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATrainCarriage+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATram+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAutomobileEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARocketEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACompany+%3B%0A++++++++++++rdf%3Atype++dbo%3APublicTransitSystem%0A++++++%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAirline+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABusCompany+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AInfrastructure+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAirport+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APort+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARestArea+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARouteOfTransportation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABridge+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayLine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoad+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoadJunction+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoadTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWaterwayTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMetroStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARouteStop+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATramStop+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A"
 DEBUG main org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
-DEBUG main org.apache.http.wire - << "Date: Sun, 22 Apr 2018 20:16:12 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Date: Thu, 03 May 2018 19:46:42 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
-DEBUG main org.apache.http.wire - << "Content-Length: 7862[\r][\n]"
+DEBUG main org.apache.http.wire - << "Content-Length: 7855[\r][\n]"
 DEBUG main org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
 DEBUG main org.apache.http.wire - << "Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB[\r][\n]"
-DEBUG main org.apache.http.wire - << "Expires: Sun, 29 Apr 2018 20:16:12 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Expires: Thu, 10 May 2018 19:46:42 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Cache-Control: max-age=604800[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Credentials: true[\r][\n]"
@@ -311,12 +239,12 @@ DEBUG main org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
 DEBUG main org.apache.http.wire - << "[\r][\n]"
 DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
 DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
-DEBUG main org.apache.http.headers - << Date: Sun, 22 Apr 2018 20:16:12 GMT
+DEBUG main org.apache.http.headers - << Date: Thu, 03 May 2018 19:46:42 GMT
 DEBUG main org.apache.http.headers - << Content-Type: application/sparql-results+json
-DEBUG main org.apache.http.headers - << Content-Length: 7862
+DEBUG main org.apache.http.headers - << Content-Length: 7855
 DEBUG main org.apache.http.headers - << Connection: keep-alive
 DEBUG main org.apache.http.headers - << Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB
-DEBUG main org.apache.http.headers - << Expires: Sun, 29 Apr 2018 20:16:12 GMT
+DEBUG main org.apache.http.headers - << Expires: Thu, 10 May 2018 19:46:42 GMT
 DEBUG main org.apache.http.headers - << Cache-Control: max-age=604800
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Origin: *
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Credentials: true
@@ -346,7 +274,6 @@ DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Aircraft_carrier" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "113.257" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Digital_television" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "111.457" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/International_Space_Station" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "106.547" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/International_Space_Station" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "106.547" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Steam_locomotive" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "100.71" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Space_Shuttle" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "99.8231" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Road" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "99.6601" }},[\n]"
@@ -356,8 +283,6 @@ DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Western_European_Summer_Time" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.7902" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Navy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.6407" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Silk_Road" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.145" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Silk_Road" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.145" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Silk_Road" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.145" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/BMW" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "96.1698" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Metro_station" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "95.6713" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Floppy_disk" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "91.8119" }},[\n]"
@@ -366,20 +291,21 @@ DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Logging" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "88.8329" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Narrow-gauge_railway" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "86.5691" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/List_of_postal_codes_in_China" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "84.7734" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Imperial_Japanese_Navy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "82.4495" }} ] } }"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Imperial_Japanese_Navy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "82.4495" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Television_advertisement" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "79.7746" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fuselage" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "79.5353" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Vein" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "78.7201" }} ] } }"
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection [id: 2][route: {}->http://dbpedia.org] can be kept alive indefinitely
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection released: [id: 2][route: {}->http://dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54960<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54960<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
 DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52082<->194.109.129.58:80 closed
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52082<->194.109.129.58:80 closed
 DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
 DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52081<->194.109.129.58:80 closed
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52081<->194.109.129.58:80 closed
 DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
 DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52080<->194.109.129.58:80 closed
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52080<->194.109.129.58:80 closed
 DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
 DEBUG main Jena - Jena initialization
 DEBUG main org.apache.jena.util.FileManager - Add location: LocatorFile
@@ -389,7 +315,7 @@ DEBUG main org.apache.jena.util.FileManager - Add location: LocatorFile
 DEBUG main org.apache.jena.util.FileManager - Add location: LocatorURL
 DEBUG main org.apache.jena.util.FileManager - Add location: ClassLoaderLocator
 DEBUG main org.apache.jena.riot.system.stream.JenaIOEnvironment - Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
-DEBUG main org.apache.jena.riot.web.HttpOp - [1] GET http://dbpedia.org/sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A
+DEBUG main org.apache.jena.riot.web.HttpOp - [1] GET http://dbpedia.org/sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASocietalEvent+%3B%0A++++++++++++rdf%3Atype++dbo%3AElection%0A++++++%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection request: [route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection leased: [id: 0][route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
 DEBUG main org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to dbpedia.org:80
@@ -398,27 +324,27 @@ DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set
 DEBUG main org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
 DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
 DEBUG main org.apache.http.impl.client.SystemDefaultHttpClient - Attempt 1 to execute request
-DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1
-DEBUG main org.apache.http.wire - >> "GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASocietalEvent+%3B%0A++++++++++++rdf%3Atype++dbo%3AElection%0A++++++%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1
+DEBUG main org.apache.http.wire - >> "GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASocietalEvent+%3B%0A++++++++++++rdf%3Atype++dbo%3AElection%0A++++++%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "User-Agent: Apache-Jena-ARQ/3.0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept-Encoding: gzip,deflate[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Host: dbpedia.org[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
 DEBUG main org.apache.http.wire - >> "[\r][\n]"
-DEBUG main org.apache.http.headers - >> GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1
+DEBUG main org.apache.http.headers - >> GET /sparql?query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3APoliticalParty+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APolitician+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASocietalEvent+%3B%0A++++++++++++rdf%3Atype++dbo%3AElection%0A++++++%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A HTTP/1.1
 DEBUG main org.apache.http.headers - >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
 DEBUG main org.apache.http.headers - >> User-Agent: Apache-Jena-ARQ/3.0.1
 DEBUG main org.apache.http.headers - >> Accept-Encoding: gzip,deflate
 DEBUG main org.apache.http.headers - >> Host: dbpedia.org
 DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
 DEBUG main org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
-DEBUG main org.apache.http.wire - << "Date: Sun, 22 Apr 2018 20:53:03 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Date: Thu, 03 May 2018 19:51:48 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
-DEBUG main org.apache.http.wire - << "Content-Length: 8165[\r][\n]"
+DEBUG main org.apache.http.wire - << "Content-Length: 8235[\r][\n]"
 DEBUG main org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
 DEBUG main org.apache.http.wire - << "Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB[\r][\n]"
-DEBUG main org.apache.http.wire - << "Expires: Sun, 29 Apr 2018 20:53:03 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Expires: Thu, 10 May 2018 19:51:48 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Cache-Control: max-age=604800[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Credentials: true[\r][\n]"
@@ -428,12 +354,12 @@ DEBUG main org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
 DEBUG main org.apache.http.wire - << "[\r][\n]"
 DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
 DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
-DEBUG main org.apache.http.headers - << Date: Sun, 22 Apr 2018 20:53:03 GMT
+DEBUG main org.apache.http.headers - << Date: Thu, 03 May 2018 19:51:48 GMT
 DEBUG main org.apache.http.headers - << Content-Type: application/sparql-results+json
-DEBUG main org.apache.http.headers - << Content-Length: 8165
+DEBUG main org.apache.http.headers - << Content-Length: 8235
 DEBUG main org.apache.http.headers - << Connection: keep-alive
 DEBUG main org.apache.http.headers - << Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB
-DEBUG main org.apache.http.headers - << Expires: Sun, 29 Apr 2018 20:53:03 GMT
+DEBUG main org.apache.http.headers - << Expires: Thu, 10 May 2018 19:51:48 GMT
 DEBUG main org.apache.http.headers - << Cache-Control: max-age=604800
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Origin: *
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Credentials: true
@@ -464,43 +390,36 @@ DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Liberal_Party_of_Canada" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "146.233" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Liberal_Party_of_Australia" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "140.203" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Nazi_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "137.566" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_States_presidential_election,_2008" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "134.375" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Kuomintang" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "130.973" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Federated_state" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "122.124" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Social_Democratic_Party_of_Germany" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "121.712" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Bharatiya_Janata_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "113.834" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Nucleic_acid_sequence" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "110.339" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_States_presidential_election,_2004" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "107.446" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Communist_Party_of_the_Soviet_Union" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "105.31" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_States_presidential_election,_2012" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "102.689" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_Kingdom_general_election,_2010" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "99.0784" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Whigs_(British_political_party)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.7666" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Melody" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "94.1756" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_States_presidential_election,_2000" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "91.4555" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Central_Powers" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "89.5086" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Freedom_of_the_press" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "88.2484" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Chiang_Kai-shek" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "85.9493" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Sinn_F\u00E9in" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "84.636" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Swiss_People's_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "84.0812" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Social_Democratic_Party_of_Austria" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "82.8818" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Austrian_People's_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "82.2744" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Socialist_Party_(France)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "82.0956" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Christian_Democratic_Union_of_Germany" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "81.1951" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Social_Democratic_Party_of_Switzerland" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "80.9582" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/New_Democratic_Party" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "80.1859" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Whig_Party_(United_States)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "79.5173" }} ] } }"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_Kingdom_general_election,_2015" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XM"
+DEBUG main org.apache.http.wire - << "LSchema#float", "value": "82.7675" }} ] } }"
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection [id: 0][route: {}->http://dbpedia.org] can be kept alive indefinitely
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection released: [id: 0][route: {}->http://dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
-DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52203<->194.109.129.58:80 closed
-DEBUG Finalizer org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52203<->194.109.129.58:80 closed
-DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
-DEBUG main Jena - Jena initialization
-DEBUG main org.apache.jena.util.FileManager - Add location: LocatorFile
-DEBUG main org.apache.jena.util.FileManager - Add location: ClassLoaderLocator
-DEBUG main org.apache.jena.util.LocationMapper - Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
-DEBUG main org.apache.jena.util.FileManager - Add location: LocatorFile
-DEBUG main org.apache.jena.util.FileManager - Add location: LocatorURL
-DEBUG main org.apache.jena.util.FileManager - Add location: ClassLoaderLocator
-DEBUG main org.apache.jena.riot.system.stream.JenaIOEnvironment - Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
-DEBUG main org.apache.jena.riot.web.HttpOp - [1] POST http://dbpedia.org/sparql
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54990<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54990<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.jena.riot.web.HttpOp - [2] POST http://dbpedia.org/sparql
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection request: [route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
-DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection leased: [id: 0][route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection leased: [id: 1][route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
 DEBUG main org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to dbpedia.org:80
 DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
 DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
@@ -512,7 +431,7 @@ DEBUG main org.apache.http.wire - >> "POST /sparql HTTP/1.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "User-Agent: Apache-Jena-ARQ/3.0.1[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Accept-Encoding: gzip,deflate[\r][\n]"
-DEBUG main org.apache.http.wire - >> "Content-Length: 3849[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Content-Length: 4235[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Host: dbpedia.org[\r][\n]"
 DEBUG main org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
@@ -521,18 +440,18 @@ DEBUG main org.apache.http.headers - >> POST /sparql HTTP/1.1
 DEBUG main org.apache.http.headers - >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
 DEBUG main org.apache.http.headers - >> User-Agent: Apache-Jena-ARQ/3.0.1
 DEBUG main org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-DEBUG main org.apache.http.headers - >> Content-Length: 3849
+DEBUG main org.apache.http.headers - >> Content-Length: 4235
 DEBUG main org.apache.http.headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
 DEBUG main org.apache.http.headers - >> Host: dbpedia.org
 DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
-DEBUG main org.apache.http.wire - >> "query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3ASport+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsLeague+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsTeam+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAthlete+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAustralianRulesFootballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABadmintonPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABaseballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABasketballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABodybuilder+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABoxer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACanoeist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AChessPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACricketer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACyclist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ADartsPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AFencer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGaelicGamesPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGolfPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGridironFootballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGymnast+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHandballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHighDiver+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHorseRider+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AJockey+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ALacrossePlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMartialArtist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMotorsportRacer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ANationalCollegiateAthleticAssociationAthlete+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ANetballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APokerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARugbyPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASnookerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASoccerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASquashPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASurfer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASwimmer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATableTennisPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATeamMember+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATennisPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AVolleyballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWaterPoloPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWinterSportPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWrestler+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACoach+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AOrganisationMember+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsManager+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsEvent+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARace+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATournament+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWrestlingEvent+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportCompetitionResult+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsSeason+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A"
+DEBUG main org.apache.http.wire - >> "query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3ASport+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsLeague+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsTeam+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAthlete+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAustralianRulesFootballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABadmintonPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABaseballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABasketballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABodybuilder+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABoxer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACanoeist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AChessPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACricketer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACyclist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ADartsPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AFencer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGaelicGamesPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGolfPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGridironFootballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGymnast+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHandballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHighDiver+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AHorseRider+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AJockey+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ALacrossePlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMartialArtist+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMotorsportRacer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ANationalCollegiateAthleticAssociationAthlete+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ANetballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APokerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARugbyPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASnookerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASoccerPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASquashPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASurfer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASwimmer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATableTennisPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATeamMember+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATennisPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AVolleyballPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWaterPoloPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWinterSportPlayer+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWrestler+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACoach+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AOrganisationMember+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsManager+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsEvent+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARace+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATournament+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWrestlingEvent+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportCompetitionResult+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportsSeason+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AReferee+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASportFacility+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACricketGround+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AGolfCourse+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARaceTrack+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASkiArea+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A"
 DEBUG main org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
-DEBUG main org.apache.http.wire - << "Date: Sun, 22 Apr 2018 21:03:34 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Date: Thu, 03 May 2018 19:51:48 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
 DEBUG main org.apache.http.wire - << "Content-Length: 8022[\r][\n]"
 DEBUG main org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
 DEBUG main org.apache.http.wire - << "Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB[\r][\n]"
-DEBUG main org.apache.http.wire - << "Expires: Sun, 29 Apr 2018 21:03:34 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Expires: Thu, 10 May 2018 19:51:48 GMT[\r][\n]"
 DEBUG main org.apache.http.wire - << "Cache-Control: max-age=604800[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
 DEBUG main org.apache.http.wire - << "Access-Control-Allow-Credentials: true[\r][\n]"
@@ -542,12 +461,12 @@ DEBUG main org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
 DEBUG main org.apache.http.wire - << "[\r][\n]"
 DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
 DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
-DEBUG main org.apache.http.headers - << Date: Sun, 22 Apr 2018 21:03:34 GMT
+DEBUG main org.apache.http.headers - << Date: Thu, 03 May 2018 19:51:48 GMT
 DEBUG main org.apache.http.headers - << Content-Type: application/sparql-results+json
 DEBUG main org.apache.http.headers - << Content-Length: 8022
 DEBUG main org.apache.http.headers - << Connection: keep-alive
 DEBUG main org.apache.http.headers - << Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB
-DEBUG main org.apache.http.headers - << Expires: Sun, 29 Apr 2018 21:03:34 GMT
+DEBUG main org.apache.http.headers - << Expires: Thu, 10 May 2018 19:51:48 GMT
 DEBUG main org.apache.http.headers - << Cache-Control: max-age=604800
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Origin: *
 DEBUG main org.apache.http.headers - << Access-Control-Allow-Credentials: true
@@ -582,3 +501,65 @@ DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/National_Basketball_Association" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "328.652" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Industrial_Revolution" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "326.387" }},[\n]"
 DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/College_football" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "317.113" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Australian_Football_League" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "295.21" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Rugby_league" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "262.773" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/2012_Summer_Olympics" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "261.097" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Track_and_field" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "257.644" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Greenwich_Mean_Time" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "253.851" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Golf" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "244.57" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Cornell_University" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "222.953" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Political_science" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "219.15" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/2008_Summer_Olympics" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "215.051" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Handball" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "197.939" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/ITunes" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "195.176" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/University_of_Pennsylvania" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "192.391" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Premier_League" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "177.41" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Sport_of_athletics" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "168.444" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Pitcher" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "166.459" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fishing" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "164.932" }} ] } }"
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection [id: 1][route: {}->http://dbpedia.org] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection released: [id: 1][route: {}->http://dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54991<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54991<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.jena.riot.web.HttpOp - [3] POST http://dbpedia.org/sparql
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection request: [route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection leased: [id: 2][route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to dbpedia.org:80
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.SystemDefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /sparql HTTP/1.1
+DEBUG main org.apache.http.wire - >> "POST /sparql HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
+DEBUG main org.apache.http.wire - >> "User-Agent: Apache-Jena-ARQ/3.0.1[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Content-Length: 2853[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Host: dbpedia.org[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> POST /sparql HTTP/1.1
+DEBUG main org.apache.http.headers - >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-Jena-ARQ/3.0.1
+DEBUG main org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.headers - >> Content-Length: 2853
+DEBUG main org.apache.http.headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+DEBUG main org.apache.http.headers - >> Host: dbpedia.org
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.wire - >> "query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3AAircraft+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAutomobile+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ALocomotive+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMilitaryVehicle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMotorcycle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AOn-SiteTransportation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARocket+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AShip+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpaceShuttle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpaceStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpacecraft+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATrain+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATrainCarriage+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATram+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAutomobileEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARocketEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACompany+%3B%0A++++++++++++rdf%3Atype++dbo%3APublicTransitSystem%0A++++++%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAirline+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABusCompany+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AInfrastructure+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAirport+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APort+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARestArea+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARouteOfTransportation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABridge+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayLine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoad+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoadJunction+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoadTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWaterwayTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMetroStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARouteStop+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATramStop+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++40%0A"
+DEBUG main org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - << "Date: Thu, 03 May 2018 19:51:48 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
+DEBUG main org.apache.http.wire - << "Content-Length: 7855[\r][\n]"
+DEBUG main org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - << "Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB[\r][\n]"
+DEBUG main org.apache.http.wire - << "Expires: Thu, 10 May 2018 19:51:48 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Cache-Control: max-age=604800[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Credentials: true[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding[\r][\n]"

@@ -146,43 +146,136 @@ public class FindEntityTypes {
         }
     }
 
-    public static void divideTextToWordAtLineWithType(BufferedWriter bw, String text, Map<String, String> entityType) throws IOException {
+    public static void divideTextToWordAtLineWithType(BufferedWriter bw, String text, Map<String, String> entityType,
+                                                      BufferedWriter bwGrained) throws IOException {
         String[] words = text.substring(1, text.length() - 3).split(" ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?");
+        System.err.println("text " + text);
+        System.err.println("\nmap " + entityType);
+        if (entityType == null || entityType.isEmpty()) {
+            for (String word : words) {
+                bw.write(word + "\t" + "O\n");
+                bwGrained.write(word + "\t" + "O\n");
+            }
+            bw.flush();
+            bwGrained.flush();
+            return;
+        }
+        System.err.println("stop words " + stopWords.size());
         Map<String, String> splittedKeyMap = new HashMap<>();
         entityType.forEach((s, v) -> {
             String[] keyWords = s.split(" ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?");//split keys from map to one word
-            for (String key :
-                    keyWords) {
-                splittedKeyMap.put(key, v);
+            for (String key : keyWords) {
+                for (String stopWord : stopWords) {
+                    if (!key.equals(stopWord))
+                        splittedKeyMap.put(key, v);
+                }
             }
         });
-
+        System.err.println("splitted key map " + splittedKeyMap);
         try {
-            for (String word : words) {
-                String value = splittedKeyMap.get(word);
-                Boolean notWrittedToFile = true;
-                for (String stopWord : stopWords) {
-                    if (notWrittedToFile) {
-                        if (word.equals(stopWord) || Pattern.matches("\\p{Punct}", word) || Character.isDigit(word.charAt(0))) {
-                            bw.write(word + "\t" + "O\n");
-                            notWrittedToFile = false;
-                        }
-                    }
-                }
-                if (notWrittedToFile) {
+            for (int i = 0; i < words.length; i++) {
+                String value = splittedKeyMap.get(words[i]);
+                Boolean notWrittenToFile = true;
+
+//                //
+//                int finalI = i;
+//                entityType.forEach((s, v) -> {
+//                    String[] keyWords = s.split(" ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?");//split keys from map to one word
+//                    for (int index = 0; index < keyWords.length; index++) {
+//                        if(words[finalI].equals(keyWords[index])){
+//                            if(words[finalI+1].equals(keyWords[index+1])){
+////                                if(words[finalI-1].equals(keyWords[index-1])){
+//                                    System.err.println("FOUNDEEED ");
+//
+//                                    System.err.println("words[finalI] " + words[finalI]);
+//                                    System.err.println("words[finalI+1] " + words[finalI+1]);
+//
+//                                    System.err.println("keyWords[index] " + keyWords[index]);
+//                                    System.err.println("keyWords[index+1] " + keyWords[index+1]);
+////                                }
+//                            }
+//                        }
+////                        splittedKeyMap.put(key, v);
+//                    }
+//                });
+//                //
+
+
+//                for (String stopWord : stopWords) {
+//                    if (notWrittenToFile) {
+//                        if (word.equals(stopWord) || Pattern.matches("\\p{Punct}", word) || Character.isDigit(word.charAt(0))) {
+//                            bw.write(word + "\t" + "O\n");
+//                            bwGrained.write(word + "\t" + "O\n");
+//                            notWrittenToFile = false;
+//                        }
+//                    }
+//                }
+
+                if (notWrittenToFile) {
                     if (value != null) {
-                        bw.write(word + "\t" + value + "\n");
+                        String keys = (String) getKeyFromValue(entityType, value, words[i]);
+                        String[] key = new String[0];
+                        if (keys != null) {
+                            System.err.println("Word: " + words[i] + " -> Key: " + keys + " -> value: " + value);
+                            key = keys.split("\\s");
+                        }
+                        String keyWords = "";
+                        if (key.length == 1) {
+                            bw.write(words[i] + "\t" + value + "\n");
+                            bwGrained.write(words[i] + "\t" + value + "\n");
+                            splittedKeyMap.remove(words[i]);
+                        } else if (key.length > 1) {
+                            System.err.println("key lenght " + key.length);
+
+                            for (int j = 0; j < key.length; j++) {
+                                System.err.println("next words: " + words[i]);
+                                keyWords = keyWords + words[i] + " ";
+                                i++;
+                            }
+                            keyWords = keyWords.substring(0, keyWords.length() - 1);
+
+                            System.err.println("concated words " + keyWords);
+                            String newValue = entityType.get(keyWords);
+                            System.err.println("new value " + newValue);
+                            if (newValue != null) {
+                                for (String keyWord : keyWords.split("\\s")) {
+                                        bw.write(keyWord + "\t" + value + "\n");
+                                        bwGrained.write(keyWord + "\t" + newValue + "\n");
+                                        splittedKeyMap.remove(keyWord);
+                                }
+                            } else {
+                                for (String keyWord : keyWords.split("\\s")) {
+                                    bw.write(keyWord + "\t" + "O\n");
+                                    bwGrained.write(keyWord + "\t" + "O\n");
+                                }
+//                                    bw.write(words[i] + "\t" + value + "\n");
+//                                bwGrained.write(words[i] + "\t" + value + "\n");
+                            }
+                        }
                     } else {
-                        bw.write(word + "\t" + "O\n");
+                        bw.write(words[i] + "\t" + "O\n");
+                        bwGrained.write(words[i] + "\t" + "O\n");
                     }
                 }
             }
+            System.err.println("map after delete " + splittedKeyMap + "\n");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             bw.flush();
+            bwGrained.flush();
         }
     }
 
+    public static Object getKeyFromValue(Map hm, Object value, String word) {
+        for (Object o : hm.keySet()) {
+            if (o.toString().contains(word)) {
+                if (hm.get(o).equals(value)) {
+                    return o;
+                }
+            }
+        }
+        return null;
+    }
 }
 

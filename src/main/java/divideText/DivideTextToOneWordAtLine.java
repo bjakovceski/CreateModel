@@ -8,8 +8,9 @@ import java.util.Scanner;
 
 public class DivideTextToOneWordAtLine {
     private static void divide() throws IOException {
-        BufferedWriter bw = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/MusicDomainWithTop40LinksTextDivided.tsv"));
-        String filePath = "C:/Users/Jakovcheski/Desktop/MusicDomainWithTop40LinksText.ttl";
+        BufferedWriter bw = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsBBCText.tsv"));
+//        String filePath = "C:/Users/Jakovcheski/Desktop/All3DomainsWithTop300LinksTextWithSameProcessedLinksOnAbstract.ttl";
+        String filePath = "C:\\Users\\Jakovcheski\\Desktop\\PoliticsBBCText.txt";
         FileInputStream inputStream = null;
         Scanner sc = null;
         try {
@@ -21,6 +22,7 @@ public class DivideTextToOneWordAtLine {
                 String[] words = line.split(" ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?");
                 for (String word : words) {
                     bw.write(word + "\tO\n");
+                    bw.flush();
                 }
             }
         }catch (IOException e) {
