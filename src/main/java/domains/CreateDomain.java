@@ -12,8 +12,8 @@ import java.util.concurrent.TimeUnit;
 
 public class CreateDomain {
     private static Long start = System.nanoTime();
-    private static int queryLimit = 40;
-    private static int abstractLinksLimit = 20;
+    private static int queryLimit = 450;
+    private static int abstractLinksLimit = 300;
     private static List<String> fileLinksName = new LinkedList<>();
     private static List<String> instanceTypeFileNames = new LinkedList<>();
 
@@ -74,15 +74,14 @@ public class CreateDomain {
         final File instanceTypesFolder = new File("C:\\Users\\Jakovcheski\\Desktop\\InstanceTypes");
         listFilesForNifLinksFolder(instanceTypesFolder, "instances");
 
-        String filePath = "C:/Users/Jakovcheski/Desktop/THESIS/nif-abstract/clean-nif-abstract-context_en.ttl";
+//        String filePath = "C:/Users/Jakovcheski/Desktop/THESIS/nif-abstract/clean-nif-abstract-context_en.ttl";
 
         int politics = 0;
         int sport = 0;
         int transportation = 0;
         FileInputStream inputStream = null;
         Scanner sc = null;
-//        int min = minNumberOfLinks();
-        int min = 41;
+        int min = minNumberOfLinks();
 
         String bwPoliticsGrainedFilePath = "C:/Users/Jakovcheski/Desktop/PoliticsGrained" + abstractLinksLimit + "Links.tsv";
         String bwSportGrainedFilePath = "C:/Users/Jakovcheski/Desktop/SportGrained" + abstractLinksLimit + "Links.tsv";
@@ -100,7 +99,7 @@ public class CreateDomain {
                 throw new RuntimeException("abstractLinksLimit is bigger than minimum number of founded links on nif-abstract, min: " + min);
             }
 
-            inputStream = new FileInputStream(filePath);
+            inputStream = new FileInputStream(abstractFile);
             sc = new Scanner(inputStream, "UTF-8");
             while (sc.hasNextLine()) {
                 if (politics >= abstractLinksLimit && sport >= abstractLinksLimit && transportation >= abstractLinksLimit) {
@@ -175,29 +174,12 @@ public class CreateDomain {
             if (bwTransportationGrained != null) {
                 bwTransportationGrained.close();
             }
-//            DivideTextToOneWordAtLine.main(null);
             SpecificAllDomains.specifyDomain(bwAllLinksFile, abstractLinksLimit);
             PoliticsSpecificDomain.specifyDomain(bwPoliticsGrainedFilePath, abstractLinksLimit);
             SportSpecificDomain.specifyDomain(bwSportGrainedFilePath, abstractLinksLimit);
             TransportationSpecificDomain.specifyDomain(bwTransportationGrainedFilePath, abstractLinksLimit);
         }
     }
-
-//    private static void findLink(int min, Set<String> abstracts, List<String> sparqlLinks) throws IOException {
-//        int foundedLinks = 0;
-//        for (String abstractLine : abstracts){
-//            String[] links = abstractLine.split(">\\s+");
-//            String[] parsedLink = links[0].split("\\?dbpv");
-//            for (String link : sparqlLinks){
-//                if (parsedLink[0].substring(1).equals(link)) {
-//                    if (foundedLinks < min) {
-//                        writeToFile(parsedLink[0], links[2]);
-//                        foundedLinks++;
-//                    }
-//                }
-//            }
-//        }
-//    }
 
     private static void writeToFile(String parsedLink, String text, BufferedWriter bwAllDomains,
                                     BufferedWriter bwGrained) throws IOException {
@@ -208,93 +190,93 @@ public class CreateDomain {
         bwText.flush();
     }
 
-//    private static int minNumberOfLinks() throws IOException {
-//        String filePath = "C:/Users/Jakovcheski/Desktop/THESIS/nif-abstract/clean-nif-abstract-context_en.ttl";
-//
-//        FileInputStream inputStream = null;
-//        Scanner sc = null;
-//        Set<String> politicsAbstracts = new LinkedHashSet<>();
-//        Set<String> sportAbstracts = new LinkedHashSet<>();
-//        Set<String> transportationAbstracts = new LinkedHashSet<>();
-////        int min = 0;
-//        try {
-//            inputStream = new FileInputStream(filePath);
-//            sc = new Scanner(inputStream, "UTF-8");
-//            while (sc.hasNextLine()) {
-//                boolean foundPolitics = false;
-//                boolean foundSport = false;
-//                String line = sc.nextLine();
-//                String[] links = line.split(">\\s+");
-//                String[] parsedLink = links[0].split("\\?dbpv");
-//                for (String politicsLink : politicsLinks) {
-//                    if (parsedLink[0].substring(1).equals(politicsLink)) {
-////                        politics++;
-//                        politicsAbstracts.add(line);
-////                        bwCleanedAbstract.write(line + "\n");
-////                        bwCleanedAbstract.flush();
-//                        foundPolitics = true;
-//                    }
-//                }
-//                if (!foundPolitics) {
-//                    for (String sportLink : sportLinks) {
-//                        if (parsedLink[0].substring(1).equals(sportLink)) {
-////                            sport++;
-//                            sportAbstracts.add(line);
-////                            bwCleanedAbstract.write(line + "\n");
-////                            bwCleanedAbstract.flush();
-//                            foundSport = true;
-//                        }
-//                    }
-//                    if (!foundSport) {
-//                        for (String transportationLink : transportationLinks) {
-//                            if (parsedLink[0].substring(1).equals(transportationLink)) {
-//                                transportationAbstracts.add(line);
-////                                bwCleanedAbstract.write(line + "\n");
-////                                bwCleanedAbstract.flush();
-////                                transportation++;
-//                            }
-//                        }
-//                    }
-//                }
-//            }
-////            min = Math.min(politicsAbstracts.size(), Math.min(sportAbstracts.size(), transportationAbstracts.size()));
-//
-//            for (String politicAbstract : politicsAbstracts) {
-//                bwPoliticsCleanedAbstract.write(politicAbstract + "\n");
-//                bwCleanedAbstract.write(politicAbstract + "\n");
-//            }
-//            for (String sportAbstract : sportAbstracts) {
-//                bwSportCleanedAbstract.write(sportAbstract + "\n");
-//                bwCleanedAbstract.write(sportAbstract + "\n");
-//            }
-//            for (String transportationAbstract : transportationAbstracts) {
-//                bwTransportationCleanedAbstract.write(transportationAbstract + "\n");
-//                bwCleanedAbstract.write(transportationAbstract + "\n");
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } finally {
-//            if (inputStream != null) {
-//                inputStream.close();
-//            }
-//            if (sc != null) {
-//                sc.close();
-//            }
-//            if (bwPoliticsCleanedAbstract != null) {
-//                bwPoliticsCleanedAbstract.close();
-//            }
-//            if (bwSportCleanedAbstract != null) {
-//                bwSportCleanedAbstract.close();
-//            }
-//            if (bwTransportationCleanedAbstract != null) {
-//                bwTransportationCleanedAbstract.close();
-//            }
-//            if (bwCleanedAbstract != null) {
-//                bwCleanedAbstract.close();
-//            }
-//        }
-//        return Math.min(politicsAbstracts.size(), Math.min(sportAbstracts.size(), transportationAbstracts.size()));
-//    }
+    private static int minNumberOfLinks() throws IOException {
+        String filePath = "C:/Users/Jakovcheski/Desktop/THESIS/nif-abstract/clean-nif-abstract-context_en.ttl";
+
+        FileInputStream inputStream = null;
+        Scanner sc = null;
+        Set<String> politicsAbstracts = new LinkedHashSet<>();
+        Set<String> sportAbstracts = new LinkedHashSet<>();
+        Set<String> transportationAbstracts = new LinkedHashSet<>();
+//        int min = 0;
+        try {
+            inputStream = new FileInputStream(filePath);
+            sc = new Scanner(inputStream, "UTF-8");
+            while (sc.hasNextLine()) {
+                boolean foundPolitics = false;
+                boolean foundSport = false;
+                String line = sc.nextLine();
+                String[] links = line.split(">\\s+");
+                String[] parsedLink = links[0].split("\\?dbpv");
+                for (String politicsLink : politicsLinks) {
+                    if (parsedLink[0].substring(1).equals(politicsLink)) {
+//                        politics++;
+                        politicsAbstracts.add(line);
+//                        bwCleanedAbstract.write(line + "\n");
+//                        bwCleanedAbstract.flush();
+                        foundPolitics = true;
+                    }
+                }
+                if (!foundPolitics) {
+                    for (String sportLink : sportLinks) {
+                        if (parsedLink[0].substring(1).equals(sportLink)) {
+//                            sport++;
+                            sportAbstracts.add(line);
+//                            bwCleanedAbstract.write(line + "\n");
+//                            bwCleanedAbstract.flush();
+                            foundSport = true;
+                        }
+                    }
+                    if (!foundSport) {
+                        for (String transportationLink : transportationLinks) {
+                            if (parsedLink[0].substring(1).equals(transportationLink)) {
+                                transportationAbstracts.add(line);
+//                                bwCleanedAbstract.write(line + "\n");
+//                                bwCleanedAbstract.flush();
+//                                transportation++;
+                            }
+                        }
+                    }
+                }
+            }
+//            min = Math.min(politicsAbstracts.size(), Math.min(sportAbstracts.size(), transportationAbstracts.size()));
+
+            for (String politicAbstract : politicsAbstracts) {
+                bwPoliticsCleanedAbstract.write(politicAbstract + "\n");
+                bwCleanedAbstract.write(politicAbstract + "\n");
+            }
+            for (String sportAbstract : sportAbstracts) {
+                bwSportCleanedAbstract.write(sportAbstract + "\n");
+                bwCleanedAbstract.write(sportAbstract + "\n");
+            }
+            for (String transportationAbstract : transportationAbstracts) {
+                bwTransportationCleanedAbstract.write(transportationAbstract + "\n");
+                bwCleanedAbstract.write(transportationAbstract + "\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (inputStream != null) {
+                inputStream.close();
+            }
+            if (sc != null) {
+                sc.close();
+            }
+            if (bwPoliticsCleanedAbstract != null) {
+                bwPoliticsCleanedAbstract.close();
+            }
+            if (bwSportCleanedAbstract != null) {
+                bwSportCleanedAbstract.close();
+            }
+            if (bwTransportationCleanedAbstract != null) {
+                bwTransportationCleanedAbstract.close();
+            }
+            if (bwCleanedAbstract != null) {
+                bwCleanedAbstract.close();
+            }
+        }
+        return Math.min(politicsAbstracts.size(), Math.min(sportAbstracts.size(), transportationAbstracts.size()));
+    }
 
     public static void main(String[] args) {
         try {

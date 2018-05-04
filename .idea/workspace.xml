@@ -5,29 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/example.log" afterPath="$PROJECT_DIR$/example.log" />
       <change beforePath="$PROJECT_DIR$/example.log.1" afterPath="$PROJECT_DIR$/example.log.1" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPARQL/Music.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPARQL/Politics.java" afterPath="$PROJECT_DIR$/src/main/java/SPARQL/Politics.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPARQL/Sport.java" afterPath="$PROJECT_DIR$/src/main/java/SPARQL/Sport.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPARQL/Transportation.java" afterPath="$PROJECT_DIR$/src/main/java/SPARQL/Transportation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/divideText/DivideTextToOneWordAtLine.java" afterPath="$PROJECT_DIR$/src/main/java/divideText/DivideTextToOneWordAtLine.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domains/CreateDomain.java" afterPath="$PROJECT_DIR$/src/main/java/domains/CreateDomain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domains/MusicSpecificDomain.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domains/PoliticsSpecificDomain.java" afterPath="$PROJECT_DIR$/src/main/java/domains/PoliticsSpecificDomain.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domains/SpecificAllDomains.java" afterPath="$PROJECT_DIR$/src/main/java/domains/SpecificAllDomains.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domains/SportSpecificDomain.java" afterPath="$PROJECT_DIR$/src/main/java/domains/SportSpecificDomain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domains/TransportationSpecificDomain.java" afterPath="$PROJECT_DIR$/src/main/java/domains/TransportationSpecificDomain.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entityTypes/FindEntityTypes.java" afterPath="$PROJECT_DIR$/src/main/java/entityTypes/FindEntityTypes.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPARQL/Music.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPARQL/Politics.class" afterPath="$PROJECT_DIR$/target/classes/SPARQL/Politics.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPARQL/Sport.class" afterPath="$PROJECT_DIR$/target/classes/SPARQL/Sport.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPARQL/Transportation.class" afterPath="$PROJECT_DIR$/target/classes/SPARQL/Transportation.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/divideText/DivideTextToOneWordAtLine.class" afterPath="$PROJECT_DIR$/target/classes/divideText/DivideTextToOneWordAtLine.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/domains/CreateDomain.class" afterPath="$PROJECT_DIR$/target/classes/domains/CreateDomain.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domains/MusicSpecificDomain.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domains/PoliticsSpecificDomain.class" afterPath="$PROJECT_DIR$/target/classes/domains/PoliticsSpecificDomain.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domains/SpecificAllDomains.class" afterPath="$PROJECT_DIR$/target/classes/domains/SpecificAllDomains.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domains/SportSpecificDomain.class" afterPath="$PROJECT_DIR$/target/classes/domains/SportSpecificDomain.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domains/TransportationSpecificDomain.class" afterPath="$PROJECT_DIR$/target/classes/domains/TransportationSpecificDomain.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/entityTypes/FindEntityTypes.class" afterPath="$PROJECT_DIR$/target/classes/entityTypes/FindEntityTypes.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CreateDomain.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateDomain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/domains/CreateDomain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,13 +34,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindEntityTypes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindEntityTypes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/entityTypes/FindEntityTypes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1442">
-              <caret line="250" column="0" lean-forward="false" selection-start-line="250" selection-start-column="0" selection-end-line="251" selection-end-column="82" />
+            <state relative-caret-position="-510">
+              <caret line="206" column="35" lean-forward="true" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecificAllDomains.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domains/SpecificAllDomains.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="383" column="43" lean-forward="false" selection-start-line="383" selection-start-column="43" selection-end-line="383" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#996#1004#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +69,8 @@
       <file leaf-file-name="PoliticsSpecificDomain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domains/PoliticsSpecificDomain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            <state relative-caret-position="792">
+              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -126,18 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SportSea</find>
-      <find>300</find>
-      <find>\t</find>
-      <find>1000</find>
-      <find>600</find>
-      <find>Station</find>
-      <find>http://dbpedia.org/resource/Progressive_Conservative_Association_of_Nova_Scotia</find>
-      <find>Tennis</find>
-      <find>International space Station</find>
-      <find>GovernmentAgency</find>
-      <find>Zheng</find>
-      <find>Pennsylvania</find>
       <find>Space sh</find>
       <find>Enterprise</find>
       <find>Space Cen</find>
@@ -147,11 +136,27 @@
       <find>Columbia,</find>
       <find>Boeing</find>
       <find>Boe</find>
-      <find>Boeing</find>
       <find>Columbia</find>
       <find>DUP</find>
       <find>Democratic Unionist Party</find>
       <find>Northern Ireland Executive</find>
+      <find>Northern Ireland Ass</find>
+      <find>Republic of Ireland</find>
+      <find>Executive</find>
+      <find>Carrier Aircraft</find>
+      <find>Workers</find>
+      <find>Patte</find>
+      <find>Silk Road</find>
+      <find>Chang</find>
+      <find>Word: Cha</find>
+      <find>Chang'an-Tianshan corridor of the Silk Road</find>
+      <find>Mem</find>
+      <find>.remove</find>
+      <find>stopW</find>
+      <find>stopWords</find>
+      <find>Pattern</find>
+      <find>father</find>
+      <find>queen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,15 +178,17 @@
         <option value="$PROJECT_DIR$/src/main/java/SPARQL/Music.java" />
         <option value="$PROJECT_DIR$/src/main/java/domains/MusicSpecificDomain.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPARQL/Sport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domains/SpecificAllDomains.java" />
         <option value="$PROJECT_DIR$/src/main/java/domains/SportSpecificDomain.java" />
         <option value="$PROJECT_DIR$/src/main/java/domains/TransportationSpecificDomain.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPARQL/Transportation.java" />
         <option value="$PROJECT_DIR$/src/main/java/divideText/DivideTextToOneWordAtLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPARQL/Politics.java" />
         <option value="$PROJECT_DIR$/src/main/java/domains/PoliticsSpecificDomain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domains/CreateDomain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domains/SpecificAllDomains.java" />
         <option value="$PROJECT_DIR$/src/main/java/entityTypes/FindEntityTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domains/CreateDomain.java" />
       </list>
     </option>
   </component>
@@ -199,10 +206,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1799" />
+    <option name="y" value="-18" />
+    <option name="width" value="1239" />
+    <option name="height" value="689" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -219,10 +226,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,42 +254,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CreateModels" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CreateModels" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="divideText" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CreateModels" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CreateModels" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domains" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CreateModels" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CreateModels" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entityTypes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CreateModels" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CreateModels" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SPARQL" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,14 +371,9 @@
       <module name="CreateDomains" />
       <envs />
     </configuration>
-    <configuration name="TransportationSpecificDomain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="domains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="domains.TransportationSpecificDomain" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -660,18 +630,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.CreateDomain" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TransportationSpecificDomain" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SpecificAllDomains" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DivideTextToOneWordAtLine" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MusicSpecificDomain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SpecificAllDomains" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DivideTextToOneWordAtLine" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MusicSpecificDomain" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestClass" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.CreateDomain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DivideTextToOneWordAtLine" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SpecificAllDomains" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MusicSpecificDomain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TransportationSpecificDomain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestClass" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DivideTextToOneWordAtLine" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SpecificAllDomains" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MusicSpecificDomain" />
       </list>
     </recent_temporary>
   </component>
@@ -718,16 +688,16 @@
       <workItem from="1525288973984" duration="5544000" />
       <workItem from="1525306199875" duration="1839000" />
       <workItem from="1525341611208" duration="13788000" />
-      <workItem from="1525367812548" duration="8416000" />
+      <workItem from="1525367812548" duration="19909000" />
+      <workItem from="1525425890804" duration="19843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204535000" />
+    <option name="totallyTimeSpent" value="235871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -738,7 +708,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3171521" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.828479" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -770,24 +740,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPARQL/Politics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domains/CreateDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entityTypes/FindEntityTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3762">
@@ -1016,13 +968,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/FindEntityTypes.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SPARQL/Music.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/domains/MusicSpecificDomain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domains/SpecificAllDomains.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1386">
-          <caret line="11" column="139" lean-forward="false" selection-start-line="11" selection-start-column="139" selection-end-line="11" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domains/TransportationSpecificDomain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1034,14 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="12" column="68" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domains/SportSpecificDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="76" column="82" lean-forward="false" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,18 +1006,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domains/PoliticsSpecificDomain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domains/SportSpecificDomain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        <state relative-caret-position="1584">
+          <caret line="76" column="82" lean-forward="false" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domains/CreateDomain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domains/PoliticsSpecificDomain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="792">
+          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/TestClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domains/SpecificAllDomains.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="383" column="43" lean-forward="false" selection-start-line="383" selection-start-column="43" selection-end-line="383" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1089,10 +1043,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entityTypes/FindEntityTypes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1442">
-          <caret line="250" column="0" lean-forward="false" selection-start-line="250" selection-start-column="0" selection-end-line="251" selection-end-column="82" />
+        <state relative-caret-position="-510">
+          <caret line="206" column="35" lean-forward="true" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domains/CreateDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding>
-            <element signature="e#996#1004#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

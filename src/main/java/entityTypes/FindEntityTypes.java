@@ -148,6 +148,7 @@ public class FindEntityTypes {
 
     public static void divideTextToWordAtLineWithType(BufferedWriter bw, String text, Map<String, String> entityType,
                                                       BufferedWriter bwGrained) throws IOException {
+        Long startTime = System.nanoTime();
         String[] words = text.substring(1, text.length() - 3).split(" ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?");
         System.err.println("text " + text);
         System.err.println("\nmap " + entityType);
@@ -160,7 +161,6 @@ public class FindEntityTypes {
             bwGrained.flush();
             return;
         }
-        System.err.println("stop words " + stopWords.size());
         Map<String, String> splittedKeyMap = new HashMap<>();
         entityType.forEach((s, v) -> {
             String[] keyWords = s.split(" ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?");//split keys from map to one word
@@ -175,87 +175,87 @@ public class FindEntityTypes {
         try {
             for (int i = 0; i < words.length; i++) {
                 String value = splittedKeyMap.get(words[i]);
-                Boolean notWrittenToFile = true;
-
-//                //
-//                int finalI = i;
-//                entityType.forEach((s, v) -> {
-//                    String[] keyWords = s.split(" ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?");//split keys from map to one word
-//                    for (int index = 0; index < keyWords.length; index++) {
-//                        if(words[finalI].equals(keyWords[index])){
-//                            if(words[finalI+1].equals(keyWords[index+1])){
-////                                if(words[finalI-1].equals(keyWords[index-1])){
-//                                    System.err.println("FOUNDEEED ");
-//
-//                                    System.err.println("words[finalI] " + words[finalI]);
-//                                    System.err.println("words[finalI+1] " + words[finalI+1]);
-//
-//                                    System.err.println("keyWords[index] " + keyWords[index]);
-//                                    System.err.println("keyWords[index+1] " + keyWords[index+1]);
-////                                }
-//                            }
-//                        }
-////                        splittedKeyMap.put(key, v);
-//                    }
-//                });
-//                //
-
-
-//                for (String stopWord : stopWords) {
-//                    if (notWrittenToFile) {
-//                        if (word.equals(stopWord) || Pattern.matches("\\p{Punct}", word) || Character.isDigit(word.charAt(0))) {
-//                            bw.write(word + "\t" + "O\n");
-//                            bwGrained.write(word + "\t" + "O\n");
-//                            notWrittenToFile = false;
-//                        }
-//                    }
-//                }
-
-                if (notWrittenToFile) {
-                    if (value != null) {
-                        String keys = (String) getKeyFromValue(entityType, value, words[i]);
-                        String[] key = new String[0];
-                        if (keys != null) {
-                            System.err.println("Word: " + words[i] + " -> Key: " + keys + " -> value: " + value);
-                            key = keys.split("\\s");
-                        }
-                        String keyWords = "";
-                        if (key.length == 1) {
-                            bw.write(words[i] + "\t" + value + "\n");
-                            bwGrained.write(words[i] + "\t" + value + "\n");
-                            splittedKeyMap.remove(words[i]);
-                        } else if (key.length > 1) {
-                            System.err.println("key lenght " + key.length);
-
-                            for (int j = 0; j < key.length; j++) {
+                boolean notAStopWord = true;
+                for (String stopWord : stopWords) {
+                    if (words[i].equals(stopWord)) {
+                        notAStopWord = false;
+                    }
+                }
+                if (value != null && !Pattern.matches("\\p{Punct}", words[i]) && notAStopWord) {
+                    String keys = (String) getKeyFromValue(entityType, value, words[i]);
+                    String[] key = new String[0];
+                    if (keys != null) {
+                        System.err.println("Word: " + words[i] + " -> Key: " + keys + " -> value: " + value);
+                        key = keys.split("\\s");
+                    }
+                    String keyWords;
+                    if (key.length == 1) {
+                        bw.write(words[i] + "\t" + value + "\n");
+                        bwGrained.write(words[i] + "\t" + value + "\n");
+                        splittedKeyMap.remove(words[i]);
+                    } else if (key.length > 1) {
+                        System.err.println("key lenght " + key.length);
+                        StringBuilder keyWordsBuilder = new StringBuilder();
+                        for (int j = 0; j < key.length; j++) {
+                            if (i <= words.length) {
                                 System.err.println("next words: " + words[i]);
-                                keyWords = keyWords + words[i] + " ";
+                                keyWordsBuilder.append(words[i]).append(" ");
                                 i++;
                             }
-                            keyWords = keyWords.substring(0, keyWords.length() - 1);
+                        }
+                        keyWords = keyWordsBuilder.toString();
+                        String newValue = "";
+                        String[] formattedString = formatKeyString(keyWords, entityType);
+                        if(formattedString[1].equals("1")) {
+                            do {
+                                StringBuilder additionalWords = new StringBuilder();
+                                if (key.length > formattedString[0].split("\\s").length) {
+                                    System.err.println("Keys are not same!!!");
+                                    int punch = key.length - formattedString[0].split("\\s").length;
+                                    System.err.println("Missing words ->  " + punch);
+                                    for (int p = 0; p < punch; p++) {
+                                        System.err.println("additional words -> " + words[i]);
+                                        if(Pattern.matches("\\p{Punct}", words[i])) {
+                                            additionalWords.append(words[i]).append(" ").append(words[i+1]).append(" ");
+                                            i = i + 2;
+                                        }else {
+                                            additionalWords.append(words[i]).append(" ");
+                                            i++;
+                                        }
+                                    }
+                                    keyWords = keyWords + " " + additionalWords;
+                                    formattedString = formatKeyString(keyWords, entityType);
+                                    if(formattedString[1].equals("1")){
+                                        newValue = entityType.get(formattedString[0]);
+                                    } else{
+                                        newValue = formattedString[0];
+                                        break;
+                                    }
+                                }
+                            } while (key.length > formattedString[0].split("\\s").length);
+                        }else{
+                            newValue = formattedString[0];
+                        }
 
-                            System.err.println("concated words " + keyWords);
-                            String newValue = entityType.get(keyWords);
-                            System.err.println("new value " + newValue);
-                            if (newValue != null) {
-                                for (String keyWord : keyWords.split("\\s")) {
-                                        bw.write(keyWord + "\t" + value + "\n");
-                                        bwGrained.write(keyWord + "\t" + newValue + "\n");
-                                        splittedKeyMap.remove(keyWord);
-                                }
-                            } else {
-                                for (String keyWord : keyWords.split("\\s")) {
-                                    bw.write(keyWord + "\t" + "O\n");
-                                    bwGrained.write(keyWord + "\t" + "O\n");
-                                }
-//                                    bw.write(words[i] + "\t" + value + "\n");
-//                                bwGrained.write(words[i] + "\t" + value + "\n");
+                        System.err.println("NEW CONCATED WORD2 -> " + formattedString[0]);
+                        System.err.println("new value: " + newValue);
+                        if (newValue != null && !newValue.equals("")) {
+                            for (String keyWord : keyWords.split("\\s")) {
+                                bw.write(keyWord + "\t" + newValue + "\n");
+                                bwGrained.write(keyWord + "\t" + newValue + "\n");
+//                                splittedKeyMap.remove(keyWord);
+                            }
+                        } else {
+                            for (String keyWord : keyWords.split("\\s")) {
+                                bw.write(keyWord + "\t" + "O\n");
+                                bwGrained.write(keyWord + "\t" + "O\n");
                             }
                         }
-                    } else {
-                        bw.write(words[i] + "\t" + "O\n");
-                        bwGrained.write(words[i] + "\t" + "O\n");
+                        i--;
                     }
+                } else {
+                    bw.write(words[i] + "\t" + "O\n");
+                    bwGrained.write(words[i] + "\t" + "O\n");
                 }
             }
             System.err.println("map after delete " + splittedKeyMap + "\n");
@@ -264,10 +264,11 @@ public class FindEntityTypes {
         } finally {
             bw.flush();
             bwGrained.flush();
+            System.err.println("Total time in divideTextToWordAtLineWithType ->  " + (System.nanoTime() - startTime));
         }
     }
 
-    public static Object getKeyFromValue(Map hm, Object value, String word) {
+    private static Object getKeyFromValue(Map hm, Object value, String word) {
         for (Object o : hm.keySet()) {
             if (o.toString().contains(word)) {
                 if (hm.get(o).equals(value)) {
@@ -276,6 +277,35 @@ public class FindEntityTypes {
             }
         }
         return null;
+    }
+
+    private static String[] formatKeyString(String keyWords, Map<String, String> entityType) {
+        keyWords = keyWords.substring(0, keyWords.length() - 1);
+        System.err.println("concated words: " + keyWords);
+        String newValue = entityType.get(keyWords);
+        Boolean isValue = true;
+        if (keyWords.endsWith(".") || keyWords.endsWith(",")) {
+            newValue = entityType.get(keyWords.substring(0, keyWords.length() - 2));
+        } else if (keyWords.contains(".") || keyWords.contains("'") || keyWords.contains(",") || keyWords.contains("\\")
+                || keyWords.contains("-") || keyWords.contains("-")) {
+            isValue = false;
+            System.err.println("!!!!!!!!!!!!!!!CONTAINS PUNCT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            keyWords = keyWords.replaceAll(" \\. ", ". ");
+            keyWords = keyWords.replaceAll(" '", "'");
+            keyWords = keyWords.replaceAll(" -", "-");
+            keyWords = keyWords.replaceAll(" - ", "-");
+            keyWords = keyWords.replaceAll(" , ", ",    ");
+            keyWords = keyWords.replaceAll(" {2}", " ");
+            keyWords = keyWords.replaceAll(" \\.", ".");
+            System.err.println("!!!!NEW CONCATED WORD " + keyWords);
+        }
+        if (isValue) {
+            System.err.println("!!!!!new value -> " + newValue);
+            return new String[]{newValue, "0"};
+        } else {
+            System.err.println("!!!!keyWords -> " + keyWords);
+            return new String[]{keyWords, "1"};
+        }
     }
 }
 
