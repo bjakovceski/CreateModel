@@ -12,8 +12,10 @@ public class SportSpecificDomain {
         FileInputStream inputStream = null;
         Scanner sc = null;
 
-        BufferedWriter bwSportCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/SportCoarseGrainedTop" + abstractLinksLimit + "Links.tsv"));
-        BufferedWriter bwSportFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/SportFineGrainedTop" + abstractLinksLimit + "Links.tsv"));
+        BufferedWriter bwSportCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/SportCoarseGrainedTop" +
+                abstractLinksLimit + "Links.tsv"));
+        BufferedWriter bwSportFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/SportFineGrainedTop" +
+                abstractLinksLimit + "Links.tsv"));
 
         try {
             inputStream = new FileInputStream(filePath);
@@ -236,7 +238,7 @@ public class SportSpecificDomain {
             if (bwSportCoarseGrained != null) {
                 bwSportCoarseGrained.close();
             }
-            if(bwSportFineGrained != null){
+            if (bwSportFineGrained != null) {
                 bwSportFineGrained.close();
             }
         }

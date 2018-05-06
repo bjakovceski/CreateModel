@@ -1,78 +1,228 @@
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Wireless_telegraphy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.757" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/De_Havilland_Canada_DHC-6_Twin_Otter" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.7004" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Camping_World_Truck_Series" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.6754" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Missouri_supplemental_route" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.6402" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Panavia_Tornado" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.6379" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Sikorsky_UH-60_Black_Hawk" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.6248" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Boeing_B-47_Stratojet" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.5433" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Instrument_flight_rules" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.5301" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Indira_Gandhi_International_Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.5245" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Cable_modem" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.5019" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/London_King's_Cross_railway_station" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.49" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/High-occupancy_vehicle_lane" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.4651" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Overpass" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.434" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Douglas_A-4_Skyhawk" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.3752" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Asymptomatic" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.3748" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/U.S._Route_30" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.352" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fujita_scale" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.3516" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Mikoyan-Gurevich_MiG-15" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.2635" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Central_railway_station,_Sydney" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.2081" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Review" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.2076" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Haneda_Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.1547" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Dubai_International_Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.1301" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Junkers_Ju_87" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.1257" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Z\u00FCrich_Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.1189" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Barque" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.0966" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fairchild_Republic_A-10_Thunderbolt_II" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.0551" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Mir" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.0369" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Singapore_Airlines" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.0331" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Saturn_V" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "23.0079" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Lockheed_Martin_F-22_Raptor" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.9982" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/McDonnell_Douglas_MD-80" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.9445" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Gallery_of_country_coats_of_arms" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.o"
-DEBUG main org.apache.http.wire - << "rg/2001/XMLSchema#float", "value": "22.9403" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_Nations_Partition_Plan_for_Palestine" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.8513" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/U.S._Route_62" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.7793" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Chairlift" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.7359" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Boeing_AH-64_Apache" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.7233" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Crossrail" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.7017" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Diatonic_scale" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.567" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Chevrolet_Corvette" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.5038" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Vought_F4U_Corsair" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.4599" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/STOL" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.4297" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/KSL-TV" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.4273" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Golden_Gate_Bridge" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.3437" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Barcelona\u2013El_Prat_Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.3349" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Beechcraft_Model_18" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.323" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Brooklyn_Bridge" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.3176" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/U.S._Route_52" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.2824" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Trans_World_Airlines" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.2722" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Mikoyan_MiG-29" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.2576" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Liverpool_Street_station" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.2335" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Grumman_F-14_Tomcat" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.1767" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/German_Type_VII_submarine" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.1325" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Great_Western_Railway_(train_operating_company)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.1064" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Interstate_95" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.0632" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/U.S._Route_59" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "22.0563" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Pumped-storage_hydroelectricity" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.9797" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Baltimore\u2013Washington_International_Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.9609" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/All_Nippon_Airways" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.9572" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Pennsylvania_Turnpike" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.9234" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Cathay_Pacific" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.9222" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Aswan_Dam" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.8615" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Interstate_5" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.7961" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/McDonnell_Douglas_DC-10" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.7804" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/ATR_72" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.7721" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/North_American_T-6_Texan" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.7499" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/U.S._Route_160" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.7311" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fecundity" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.7072" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Imperial_Russian_Navy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.6954" }},[\n]"
-DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Singapore_Changi_Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "21.6859" }} ] } }"
+DEBUG main org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - << "Date: Sun, 06 May 2018 22:53:57 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
+DEBUG main org.apache.http.wire - << "Content-Length: 11986[\r][\n]"
+DEBUG main org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - << "Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB[\r][\n]"
+DEBUG main org.apache.http.wire - << "Expires: Sun, 13 May 2018 22:53:57 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Cache-Control: max-age=604800[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Credentials: true[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+DEBUG main org.apache.http.wire - << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << Date: Sun, 06 May 2018 22:53:57 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/sparql-results+json
+DEBUG main org.apache.http.headers - << Content-Length: 11986
+DEBUG main org.apache.http.headers - << Connection: keep-alive
+DEBUG main org.apache.http.headers - << Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB
+DEBUG main org.apache.http.headers - << Expires: Sun, 13 May 2018 22:53:57 GMT
+DEBUG main org.apache.http.headers - << Cache-Control: max-age=604800
+DEBUG main org.apache.http.headers - << Access-Control-Allow-Origin: *
+DEBUG main org.apache.http.headers - << Access-Control-Allow-Credentials: true
+DEBUG main org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, OPTIONS
+DEBUG main org.apache.http.headers - << Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding
+DEBUG main org.apache.http.headers - << Accept-Ranges: bytes
+DEBUG main org.apache.http.impl.client.SystemDefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - << "[\n]"
+DEBUG main org.apache.http.wire - << "{ "head": { "link": [], "vars": ["s", "v"] },[\n]"
+DEBUG main org.apache.http.wire - << "  "results": { "distinct": false, "ordered": true, "bindings": [[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Association_football" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "3042.89" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Departments_of_France" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "1364.17" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Central_European_Time" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "1210.98" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Central_European_Summer_Time" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "1084.24" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/American_football" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "692.26" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Basketball" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "684.383" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Ice_hockey" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "599.823" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Cricket" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "589.578" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/National_Football_League" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "540.216" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Defender_(association_football)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "503.09" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Major_League_Baseball" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "501.036" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Rugby_union" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "467.62" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Indian_Standard_Time" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "457.775" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Tennis" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "427.939" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Baseball" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "423.399" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Australian_rules_football" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "392.183" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Coordinated_Universal_Time" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "385.706" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Columbia_University" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "375.48" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Olympic_Games" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "370.439" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Volleyball" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "361.26" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/National_Hockey_League" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "328.915" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/National_Basketball_Association" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "328.652" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Industrial_Revolution" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "326.387" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/College_football" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "317.113" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Australian_Football_League" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "295.21" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Rugby_league" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "262.773" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/2012_Summer_Olympics" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "261.097" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Track_and_field" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "257.644" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Greenwich_Mean_Time" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "253.851" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Golf" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "244.57" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Cornell_University" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "222.953" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Political_science" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "219.15" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/2008_Summer_Olympics" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "215.051" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Handball" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "197.939" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/ITunes" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "195.176" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/University_of_Pennsylvania" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "192.391" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Premier_League" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "177.41" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Sport_of_athletics" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "168.444" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Pitcher" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "166.459" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fishing" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "164.932" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Pregnancy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value""
+DEBUG main org.apache.http.wire - << ": "158.73" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/2004_Summer_Olympics" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "157.807" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Summer_Olympic_Games" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "154.363" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Manchester_United_F.C." }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "149.153" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Horse_racing" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "149.093" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/2000_Summer_Olympics" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "147.005" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/New_York_Yankees" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "143.929" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Field_hockey" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "141.366" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Meridian_(geography)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "140.92" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/1996_Summer_Olympics" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "133.904" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Rugby_football" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "133.333" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Minor_League_Baseball" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "130.667" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Rowing_(sport)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "127.354" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Northern_Hemisphere" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "126.813" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Canadian_football" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "126.453" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Arsenal_F.C." }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "125.939" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Major_League_Soccer" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "122.579" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Winter_Olympic_Games" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "120.53" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/England_national_football_team" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "119.465" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Super_Bowl" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "118.148" }} ] } }"
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection [id: 1][route: {}->http://dbpedia.org] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection released: [id: 1][route: {}->http://dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52691<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52691<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.jena.riot.web.HttpOp - [3] POST http://dbpedia.org/sparql
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection request: [route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection leased: [id: 2][route: {}->http://dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to dbpedia.org:80
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.client.SystemDefaultHttpClient - Attempt 1 to execute request
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /sparql HTTP/1.1
+DEBUG main org.apache.http.wire - >> "POST /sparql HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
+DEBUG main org.apache.http.wire - >> "User-Agent: Apache-Jena-ARQ/3.0.1[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Content-Length: 2853[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Host: dbpedia.org[\r][\n]"
+DEBUG main org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - >> "[\r][\n]"
+DEBUG main org.apache.http.headers - >> POST /sparql HTTP/1.1
+DEBUG main org.apache.http.headers - >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
+DEBUG main org.apache.http.headers - >> User-Agent: Apache-Jena-ARQ/3.0.1
+DEBUG main org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.headers - >> Content-Length: 2853
+DEBUG main org.apache.http.headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+DEBUG main org.apache.http.headers - >> Host: dbpedia.org
+DEBUG main org.apache.http.headers - >> Connection: Keep-Alive
+DEBUG main org.apache.http.wire - >> "query=PREFIX++dbo%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++vrank%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0A%0ASELECT+DISTINCT++%3Fs+%3Fv%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E%0AWHERE%0A++%7B+++%7B+%3Fs++rdf%3Atype++dbo%3AAircraft+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAutomobile+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ALocomotive+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMilitaryVehicle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMotorcycle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AOn-SiteTransportation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARocket+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AShip+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpaceShuttle+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpaceStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ASpacecraft+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATrain+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATrainCarriage+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATram+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAutomobileEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARocketEngine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ACompany+%3B%0A++++++++++++rdf%3Atype++dbo%3APublicTransitSystem%0A++++++%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAirline+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABusCompany+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AInfrastructure+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AAirport+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3APort+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARestArea+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARouteOfTransportation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ABridge+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayLine+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoad+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoadJunction+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARoadTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AWaterwayTunnel+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3AMetroStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARailwayStation+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ARouteStop+%7D%0A++++UNION%0A++++++%7B+%3Fs++rdf%3Atype++dbo%3ATramStop+%7D%0A++++%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv%0A++%7D%0AORDER+BY+DESC%28%3Fv%29%0ALIMIT+++60%0A"
+DEBUG main org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - << "Date: Sun, 06 May 2018 22:53:57 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
+DEBUG main org.apache.http.wire - << "Content-Length: 11780[\r][\n]"
+DEBUG main org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - << "Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB[\r][\n]"
+DEBUG main org.apache.http.wire - << "Expires: Sun, 13 May 2018 22:53:57 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - << "Cache-Control: max-age=604800[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Credentials: true[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+DEBUG main org.apache.http.wire - << "Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding[\r][\n]"
+DEBUG main org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+DEBUG main org.apache.http.wire - << "[\r][\n]"
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - << Date: Sun, 06 May 2018 22:53:57 GMT
+DEBUG main org.apache.http.headers - << Content-Type: application/sparql-results+json
+DEBUG main org.apache.http.headers - << Content-Length: 11780
+DEBUG main org.apache.http.headers - << Connection: keep-alive
+DEBUG main org.apache.http.headers - << Server: Virtuoso/07.20.3228 (Linux) i686-generic-linux-glibc25-64  VDB
+DEBUG main org.apache.http.headers - << Expires: Sun, 13 May 2018 22:53:57 GMT
+DEBUG main org.apache.http.headers - << Cache-Control: max-age=604800
+DEBUG main org.apache.http.headers - << Access-Control-Allow-Origin: *
+DEBUG main org.apache.http.headers - << Access-Control-Allow-Credentials: true
+DEBUG main org.apache.http.headers - << Access-Control-Allow-Methods: GET, POST, OPTIONS
+DEBUG main org.apache.http.headers - << Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding
+DEBUG main org.apache.http.headers - << Accept-Ranges: bytes
+DEBUG main org.apache.http.impl.client.SystemDefaultHttpClient - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.wire - << "[\n]"
+DEBUG main org.apache.http.wire - << "{ "head": { "link": [], "vars": ["s", "v"] },[\n]"
+DEBUG main org.apache.http.wire - << "  "results": { "distinct": false, "ordered": true, "bindings": [[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Peer_review" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "301.642" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "248.834" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Submarine" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "210.331" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/PH" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "204.253" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Rapid_transit" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "188.458" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Equator" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "187.07" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Helicopter" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "163.673" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Controlled-access_highway" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "149.053" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Egg" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "130.719" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Cartesian_coordinate_system" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "128.702" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Light_rail" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "128.472" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/BBC_Radio_4" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "126.694" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fighter_aircraft" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "118.874" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Ferry" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "117.478" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Telegraphy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "113.634" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Ship" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "113.318" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Aircraft_carrier" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "113.257" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Digital_television" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "111.457" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/International_Space_Station" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "106.547" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Steam_locomotive" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "100.71" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Space_Shuttle" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "99.8231" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Road" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "99.6601" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Artery" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "99.6005" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/BBC_Radio_1" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "99.4809" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Unmanned_aerial_vehicle" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "99.4257" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Western_European_Summer_Time" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.7902" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Navy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.6407" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Silk_Road" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "98.145" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/BMW" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "96.1698" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Metro_station" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "95.6713" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Floppy_disk" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "91.8119" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Celsius" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "90.4716" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Monoplane" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "89.1828" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Logging" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "88.8329" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Narrow-gauge_railway" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "86.5691" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/List_of_postal_codes_in_China" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "84.7734" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Imperial_Japanese_Navy" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "82.4495" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Television_advertisement" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "79.7746" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Fuselage" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "79.5353" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Vein" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "78.7201" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Precambrian" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "78.5851" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Exchange_rate" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2"
+DEBUG main org.apache.http.wire - << "001/XMLSchema#float", "value": "76.6284" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Interest_rate" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "76.5463" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/General_Dynamics_F-16_Fighting_Falcon" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "75.4648" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Magna_Carta" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "73.9548" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Electric_power" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "73.5314" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/American_Airlines" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "72.4753" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Heathrow_Airport" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "71.9539" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/United_Airlines" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "70.9816" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Airbus_A320_family" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "70.8773" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Wall_Street" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "70.4035" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Steamboat" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "70.1691" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Boeing_747" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "69.3149" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Boeing_737" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "69.1914" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Delta_Air_Lines" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "66.0542" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Interchange_(road)" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "65.9983" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Radio_broadcasting" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "65.9049" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Biplane" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "64.7208" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Lockheed_C-130_Hercules" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "64.0511" }},[\n]"
+DEBUG main org.apache.http.wire - << "    { "s": { "type": "uri", "value": "http://dbpedia.org/resource/Manual_transmission" }[0x9], "v": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#float", "value": "63.8838" }} ] } }"
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection [id: 2][route: {}->http://dbpedia.org] can be kept alive indefinitely
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection released: [id: 2][route: {}->http://dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
-DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:58341<->194.109.129.58:80 closed
-DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:58341<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52692<->194.109.129.58:80 closed
+DEBUG main org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:52692<->194.109.129.58:80 closed
 DEBUG main org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down
 DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager is shutting down
 DEBUG Finalizer org.apache.http.impl.conn.PoolingClientConnectionManager - Connection manager shut down

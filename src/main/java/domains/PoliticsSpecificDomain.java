@@ -16,8 +16,10 @@ public class PoliticsSpecificDomain {
 //        String filePath = "C:\\Users\\Jakovcheski\\Desktop\\PoliticsDomainWithTop40Links.ttl";
         FileInputStream inputStream = null;
         Scanner sc = null;
-        BufferedWriter bwPoliticsCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsCoarseGrainedTop" + abstractLinksLimit + "Links.tsv"));
-        BufferedWriter bwPoliticsFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsFineGrainedTop" + abstractLinksLimit + "Links.tsv"));
+        BufferedWriter bwPoliticsCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsCoarseGrainedTop" +
+                abstractLinksLimit + "Links.tsv"));
+        BufferedWriter bwPoliticsFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsFineGrainedTop" +
+                abstractLinksLimit + "Links.tsv"));
 
         try {
             inputStream = new FileInputStream(filePath);

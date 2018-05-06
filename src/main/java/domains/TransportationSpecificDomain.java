@@ -9,8 +9,10 @@ import java.util.Scanner;
 public class TransportationSpecificDomain {
 
     public static void specifyDomain(String filePath, int abstractLinksLimit) throws IOException {
-        BufferedWriter bwTransportationCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/TransportationCoarseGrainedTop"+abstractLinksLimit+"Links.tsv"));
-        BufferedWriter bwTransportationFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/TransportationFineGrainedTop"+abstractLinksLimit+"Links.tsv"));
+        BufferedWriter bwTransportationCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/TransportationCoarseGrainedTop" +
+                abstractLinksLimit + "Links.tsv"));
+        BufferedWriter bwTransportationFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/TransportationFineGrainedTop" +
+                abstractLinksLimit + "Links.tsv"));
         FileInputStream inputStream = null;
         Scanner sc = null;
         try {
@@ -19,7 +21,7 @@ public class TransportationSpecificDomain {
             while (sc.hasNextLine()) {
                 String line = sc.nextLine();
                 String[] splittedLine = line.split("\\s");
-                switch (splittedLine[1]){
+                switch (splittedLine[1]) {
                     case "Aircraft":
                     case "aircraftType":
                     case "aircraftUser":
@@ -159,7 +161,7 @@ public class TransportationSpecificDomain {
             if (bwTransportationCoarseGrained != null) {
                 bwTransportationCoarseGrained.close();
             }
-            if(bwTransportationFineGrained != null){
+            if (bwTransportationFineGrained != null) {
                 bwTransportationFineGrained.close();
             }
         }

@@ -24,10 +24,15 @@ public class Politics {
                 + "UNION\n"
                 + "{?s rdf:type dbo:Politician .}\n"
                 +"UNION\n"
-                + "{\n"
-                +   "?s rdf:type dbo:SocietalEvent.\n"
-                +   "?s rdf:type dbo:Election .\n"
-                +"}\n"
+                +   "{\n"
+                +       "?s rdf:type dbo:SocietalEvent.\n"
+                +       "?s rdf:type dbo:Election .\n"
+                +   "}\n"
+                +"UNION\n" +
+                    "{\n" +
+                        "?s rdf:type dbo:Person.\n" +
+                        "?s rdf:type dbo:OfficeHolder.\n" +
+                    "}"
                 + "?s vrank:hasRank/vrank:rankValue ?v.\n"
                 + "}\n"
                 + "ORDER BY DESC(?v) LIMIT " + queryLimit

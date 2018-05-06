@@ -8,8 +8,10 @@ import java.util.Scanner;
 
 public class SpecificAllDomains {
     public static void specifyDomain(String filePath, int abstractLinksLimit) throws IOException {
-        BufferedWriter bwFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsTop"+abstractLinksLimit+"LinksTextWithSameProcessedLinksOnAbstractFineGrainedSpecified.tsv"));
-        BufferedWriter bwCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsTop"+abstractLinksLimit+"LinksTextWithSameProcessedLinksOnAbstractCoarseGrainedSpecified.tsv"));
+        BufferedWriter bwFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsTop" +
+                abstractLinksLimit + "LinksTextWithSameProcessedLinksOnAbstractFineGrainedSpecified.tsv"));
+        BufferedWriter bwCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsTop" +
+                abstractLinksLimit + "LinksTextWithSameProcessedLinksOnAbstractCoarseGrainedSpecified.tsv"));
 //        String filePath = "C:\\Users\\Jakovcheski\\Desktop\\Sport 1000\\SportCoarseGrained1000Links.tsv";
         FileInputStream inputStream = null;
         Scanner sc = null;
@@ -19,7 +21,7 @@ public class SpecificAllDomains {
             while (sc.hasNextLine()) {
                 String line = sc.nextLine();
                 String[] splittedLine = line.split("\\s");
-                if (splittedLine.length > 1){
+                if (splittedLine.length > 1) {
                     switch (splittedLine[1]) {
                         case "Parliament":
                         case "PoliticalParty":
