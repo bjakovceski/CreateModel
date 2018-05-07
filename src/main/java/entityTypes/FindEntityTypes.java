@@ -123,7 +123,6 @@ public class FindEntityTypes {
 
     public static void divideTextToWordAtLineWithType(BufferedWriter bw, String text, Map<String, String> entityType,
                                                       BufferedWriter bwGrained) throws IOException {
-        Long startTime = System.nanoTime();
         String[] words = new String[0];
         try {
             words = text.substring(1, text.length() - 3).split(" ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?");
@@ -133,7 +132,6 @@ public class FindEntityTypes {
 
         try {
             if (entityType == null || entityType.isEmpty()) {
-                System.err.println("3");
                 for (String word : words) {
                     bw.write(word + "\t" + "O\n");
                     bwGrained.write(word + "\t" + "O\n");
@@ -191,6 +189,7 @@ public class FindEntityTypes {
                         String[] formattedString = formatKeyString(keyWords, entityType);
                         if (formattedString[1].equals("1")) {
 //                            System.err.println("7");
+                            Long beginTime = System.nanoTime();
                             do {
 //                                System.err.println("8");
                                 StringBuilder additionalWords = new StringBuilder();
@@ -212,7 +211,6 @@ public class FindEntityTypes {
                                     keyWords = keyWords + " " + additionalWords;
                                     formattedString = formatKeyString(keyWords, entityType);
                                     if (formattedString[1].equals("1")) {
-
                                         keyWords = formattedString[0];
                                         if (keyWords.endsWith(" ") || keyWords.endsWith("\\s")) {
                                             keyWords = keyWords.substring(0, keyWords.length() - 1);
@@ -224,6 +222,11 @@ public class FindEntityTypes {
                                     }
                                 }
 //                                System.err.println("11");
+                                if(((System.nanoTime() - beginTime)/1000000000.0) > 20){
+                                    //infinity loop, break the process
+                                    System.err.println("breaking process");
+                                    break;
+                                }
                             } while (key.length > formattedString[0].split("\\s").length);
 //                            System.err.println("12");
                         } else {
@@ -256,7 +259,6 @@ public class FindEntityTypes {
         } finally {
             bw.flush();
             bwGrained.flush();
-            System.err.println("Total time in divideTextToWordAtLineWithType ->  " + (System.nanoTime() - startTime));
         }
     }
 
