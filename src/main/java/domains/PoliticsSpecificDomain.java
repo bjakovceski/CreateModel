@@ -12,14 +12,16 @@ import java.util.Scanner;
 public class PoliticsSpecificDomain {
 
     public static void specifyDomain(String filePath, int abstractLinksLimit) throws IOException {
-//        BufferedWriter bw = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsSpecifyDomainWithTop40Links.tsv"));
-//        String filePath = "C:\\Users\\Jakovcheski\\Desktop\\PoliticsDomainWithTop40Links.ttl";
         FileInputStream inputStream = null;
         Scanner sc = null;
         BufferedWriter bwPoliticsCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsCoarseGrainedTop" +
-                abstractLinksLimit + "LinksWithLowerPageRank.tsv"));
+                abstractLinksLimit + "Links.tsv"));
         BufferedWriter bwPoliticsFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsFineGrainedTop" +
-                abstractLinksLimit + "LinksWithLowerPageRank.tsv"));
+                abstractLinksLimit + "Links.tsv"));
+
+        //UNCOMMENT THIS FOR NEW PAPER ANNOTATION
+//        BufferedWriter bwPoliticsCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsBBCCoarseGrained.tsv"));
+//        BufferedWriter bwPoliticsFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsBBCFineGrained.tsv"));
 
         try {
             inputStream = new FileInputStream(filePath);

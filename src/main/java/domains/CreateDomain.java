@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class CreateDomain {
     private static Long start = System.nanoTime();
-    private static int queryLimit = 1400;
+    private static int queryLimit = 1000;
     private static int abstractLinksLimit = 500;
     private static List<String> fileLinksName = new LinkedList<>();
     private static List<String> instanceTypeFileNames = new LinkedList<>();
@@ -37,16 +37,16 @@ public class CreateDomain {
     private static BufferedWriter bwPoliticsCleanedAbstract;
     private static BufferedWriter bwSportCleanedAbstract;
     private static BufferedWriter bwTransportationCleanedAbstract;
-    private static String bwAllLinksFile = "C:/Users/Jakovcheski/Desktop/All3DomainsTop" + abstractLinksLimit + "LinksWithSameProcessedLinksOnAbstractWithLowerPageRank.ttl";
-    private static String abstractFile = "C:/Users/Jakovcheski/Desktop/CleanedNifAbstract" + abstractLinksLimit + "LinksWithLowerPageRank.ttl";
-    private static String politicsAbstractFile = "C:/Users/Jakovcheski/Desktop/CleanedNifPoliticsAbstract" + abstractLinksLimit + "LinksWithLowerPageRank.ttl";
-    private static String sportAbstractFile = "C:/Users/Jakovcheski/Desktop/CleanedNifSportAbstract" + abstractLinksLimit + "LinksWithLowerPageRank.ttl";
-    private static String transportationAbstractFile = "C:/Users/Jakovcheski/Desktop/CleanedNifTransportationAbstract" + abstractLinksLimit + "LinksWithLowerPageRank.ttl";
+    private static String bwAllLinksFile = "C:/Users/Jakovcheski/Desktop/All3DomainsTop" + abstractLinksLimit + "LinksWithSameProcessedLinksOnAbstract.ttl";
+    private static String abstractFile = "C:/Users/Jakovcheski/Desktop/CleanedNifAbstract" + abstractLinksLimit + "Links.ttl";
+    private static String politicsAbstractFile = "C:/Users/Jakovcheski/Desktop/CleanedNifPoliticsAbstract" + abstractLinksLimit + "Links.ttl";
+    private static String sportAbstractFile = "C:/Users/Jakovcheski/Desktop/CleanedNifSportAbstract" + abstractLinksLimit + "Links.ttl";
+    private static String transportationAbstractFile = "C:/Users/Jakovcheski/Desktop/CleanedNifTransportationAbstract" + abstractLinksLimit + "Links.ttl";
 
     static {
         try {
             bw = new BufferedWriter(new FileWriter(bwAllLinksFile));
-            bwText = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsTop" + abstractLinksLimit + "LinksTextWithSameProcessedLinksOnAbstractWithLowerPageRank.ttl"));
+            bwText = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsTop" + abstractLinksLimit + "LinksTextWithSameProcessedLinksOnAbstract.ttl"));
             bwCleanedAbstract = new BufferedWriter(new FileWriter(abstractFile));
             bwPoliticsCleanedAbstract = new BufferedWriter(new FileWriter(politicsAbstractFile));
             bwSportCleanedAbstract = new BufferedWriter(new FileWriter(sportAbstractFile));
@@ -62,9 +62,9 @@ public class CreateDomain {
 
 
     private static void createDomain() throws IOException {
-        politicsLinks = politicsLinks.subList(800, politicsLinks.size()-1);
-        sportLinks = sportLinks.subList(800, sportLinks.size()-1);
-        transportationLinks = transportationLinks.subList(800, transportationLinks.size()-1);
+//        politicsLinks = politicsLinks.subList(600, politicsLinks.size()-1);
+//        sportLinks = sportLinks.subList(600, sportLinks.size()-1);
+//        transportationLinks = transportationLinks.subList(600, transportationLinks.size()-1);
         //nif links
         final File nifLinksFolder = new File("C:\\Users\\Jakovcheski\\Desktop\\DataTree");
         listFilesForNifLinksFolder(nifLinksFolder, "links");
@@ -83,9 +83,9 @@ public class CreateDomain {
 
         minNumberOfLinks();
 
-        String bwPoliticsGrainedFilePath = "C:/Users/Jakovcheski/Desktop/PoliticsGrained" + abstractLinksLimit + "LinksWithLowerPageRank.tsv";
-        String bwSportGrainedFilePath = "C:/Users/Jakovcheski/Desktop/SportGrained" + abstractLinksLimit + "LinksWithLowerPageRank.tsv";
-        String bwTransportationGrainedFilePath = "C:/Users/Jakovcheski/Desktop/TransportationGrained" + abstractLinksLimit + "LinksWithLowerPageRank.tsv";
+        String bwPoliticsGrainedFilePath = "C:/Users/Jakovcheski/Desktop/PoliticsGrained" + abstractLinksLimit + "Links.tsv";
+        String bwSportGrainedFilePath = "C:/Users/Jakovcheski/Desktop/SportGrained" + abstractLinksLimit + "Links.tsv";
+        String bwTransportationGrainedFilePath = "C:/Users/Jakovcheski/Desktop/TransportationGrained" + abstractLinksLimit + "Links.tsv";
         BufferedWriter bwPoliticsGrained = new BufferedWriter(new FileWriter(bwPoliticsGrainedFilePath));
         BufferedWriter bwSportGrained = new BufferedWriter(new FileWriter(bwSportGrainedFilePath));
         BufferedWriter bwTransportationGrained = new BufferedWriter(new FileWriter(bwTransportationGrainedFilePath));

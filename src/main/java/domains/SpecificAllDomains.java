@@ -9,10 +9,14 @@ import java.util.Scanner;
 public class SpecificAllDomains {
     public static void specifyDomain(String filePath, int abstractLinksLimit) throws IOException {
         BufferedWriter bwFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsTop" +
-                abstractLinksLimit + "LinksTextWithSameProcessedLinksOnAbstractFineGrainedSpecifiedWithLowerPageRank.tsv"));
+                abstractLinksLimit + "LinksTextWithSameProcessedLinksOnAbstractFineGrainedSpecified.tsv"));
         BufferedWriter bwCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsTop" +
-                abstractLinksLimit + "LinksTextWithSameProcessedLinksOnAbstractCoarseGrainedSpecifiedWithLowerPageRank.tsv"));
-//        String filePath = "C:\\Users\\Jakovcheski\\Desktop\\Sport 1000\\SportCoarseGrained1000Links.tsv";
+                abstractLinksLimit + "LinksTextWithSameProcessedLinksOnAbstractCoarseGrainedSpecified.tsv"));
+
+        //UNCOMMENT THIS FOR NEW PAPER ANNOTATION
+//        BufferedWriter bwFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsBBCFineGrainedSpecified.tsv"));
+//        BufferedWriter bwCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/All3DomainsTopBBCCoarseGrainedSpecified.tsv"));
+
         FileInputStream inputStream = null;
         Scanner sc = null;
         try {

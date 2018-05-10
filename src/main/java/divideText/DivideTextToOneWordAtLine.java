@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class DivideTextToOneWordAtLine {
     private static void divide() throws IOException {
-        BufferedWriter bw = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/PoliticsBBCText.tsv"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/TransportationCNNText.tsv"));
 //        String filePath = "C:/Users/Jakovcheski/Desktop/All3DomainsWithTop300LinksTextWithSameProcessedLinksOnAbstract.ttl";
-        String filePath = "C:\\Users\\Jakovcheski\\Desktop\\PoliticsBBCText.txt";
+        String filePath = "C:\\Users\\Jakovcheski\\Desktop\\TransportationCNNText.txt";
         FileInputStream inputStream = null;
         Scanner sc = null;
         try {

@@ -10,9 +10,14 @@ public class TransportationSpecificDomain {
 
     public static void specifyDomain(String filePath, int abstractLinksLimit) throws IOException {
         BufferedWriter bwTransportationCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/TransportationCoarseGrainedTop" +
-                abstractLinksLimit + "LinksWithLowerPageRank.tsv"));
+                abstractLinksLimit + "Links.tsv"));
         BufferedWriter bwTransportationFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/TransportationFineGrainedTop" +
-                abstractLinksLimit + "LinksWithLowerPageRank.tsv"));
+                abstractLinksLimit + "Links.tsv"));
+
+        //UNCOMMENT THIS FOR NEW PAPER ANNOTATION
+//        BufferedWriter bwTransportationCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/TransportationBBCCoarseGrained.tsv"));
+//        BufferedWriter bwTransportationFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/TransportationBBCFineGrained.tsv"));
+
         FileInputStream inputStream = null;
         Scanner sc = null;
         try {

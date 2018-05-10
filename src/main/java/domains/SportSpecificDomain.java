@@ -13,9 +13,13 @@ public class SportSpecificDomain {
         Scanner sc = null;
 
         BufferedWriter bwSportCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/SportCoarseGrainedTop" +
-                abstractLinksLimit + "LinksWithLowerPageRank.tsv"));
+                abstractLinksLimit + "Links.tsv"));
         BufferedWriter bwSportFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/SportFineGrainedTop" +
-                abstractLinksLimit + "LinksWithLowerPageRank.tsv"));
+                abstractLinksLimit + "Links.tsv"));
+
+        //UNCOMMENT THIS FOR NEW PAPER ANNOTATION
+//        BufferedWriter bwSportCoarseGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/SportBBCCoarseGrained.tsv"));
+//        BufferedWriter bwSportFineGrained = new BufferedWriter(new FileWriter("C:/Users/Jakovcheski/Desktop/SportBBCFineGrained.tsv"));
 
         try {
             inputStream = new FileInputStream(filePath);
